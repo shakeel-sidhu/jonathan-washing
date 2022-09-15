@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awsome cdn-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- owl carousal -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- animation css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- stylesheet -->
+    <link href="style.css" rel="stylesheet">
+    <title>Homepage</title>
+    <link rel="icon" type="image/png" href="#">
+</head>
+<body>
+    <!------------------- header ---------------------->
+     <!-- Start Header -->
+     <header>
+        <!-- Header Bar -->
+        <section class="header-bar">
+            <div class="container">
+                <div class="bar-content">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-sm-6">
+                            <div class="txt-bar">
+                                <p>80 Broklyn Golden Street, New York. USA</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="social">
+                                <ul class="social-links d-flex justify-content-end">
+                                    <li><a href="/"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="/"><i class="fab fa-pinterest"></i></a></li>
+                                    <li><a href="/"><i class="fab fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Bar -->
+        <!-- Start Nav -->
+        <section class="navigation-sec font-barlow">
+           
+                <div class="menu-1">
+                    <!-- Brand -->
+                    <a class="menu-1-logo" href="#">
+                        <img src="images/Background (2).png">
+                    </a>
+
+                  
+
+                    <!-- Navbar links -->
+                    <div class="nav-list">
+                        <ul class="menu-1-nav-list ml-auto">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <h5>Contact Us</h5>
+                                
+                                <a href="mailto:jonathan@mail.com">jonathan@mail.com</a>
+                                
+                            </li>
+                            <li >
+                                <i class="fas fa-phone-alt"></i>
+                                <h5>Call Us Now</h5>
+                               
+                                <a href="tel:92.666.888.0000">92 666 888 0000</a>
+                                
+                            </li>
+                            <li >
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h5>Our Address</h5>
+                             
+                                <a href="#">House 35 R/A, Street</a>
+                              
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+           
+        </section>
+        <!-- ENd Nav -->
+    </header>
+    <!-- banner navigation -->
+   
+        <nav class="wrapper">
+         
+          <div class="content">
+              <!-- side nav menu -->
+                <div id="mySidenav" class="sidenav">
+                    <div class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></div>
+                    <div class="side-nav-inner">
+                        <a href="#" class="foter-menu-logo"><img src="images/Background (2).png"></a>
+                    </div>
+                    <div class="drop-btn-row">
+                        <a href="#" class="drop-btn-text">HOME</a>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn" id="meu_div"><span><i class="fas fa-chevron-down"></i></span></button>
+                            <div id="myDropdown" class="dropdown-content">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-btn-row">
+                        <a href="#" class="drop-btn-text">PAGES</a>
+                        <div class="dropdown">
+                            <button onclick="mFunction()" class="dropbtn" id="me_div"><span><i class="fas fa-chevron-down"></i></span></button>
+                            <div id="scndDropdown" class="dropdown-content">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-btn-row">
+                        <a href="#" class="drop-btn-text">SERVICES</a>
+                        <div class="dropdown">
+                            <button onclick="thirdFunction()" class="dropbtn" id="third_div"><span><i class="fas fa-chevron-down"></i></span></button>
+                            <div id="thirdDropdown" class="dropdown-content">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-btn-row">
+                        <a href="#" class="drop-btn-text">ELEMENTS</a>
+                        <div class="dropdown">
+                            <button onclick="fourthFunction()" class="dropbtn" id="fourth_div"><span><i class="fas fa-chevron-down"></i></span></button>
+                            <div id="fourthDropdown" class="dropdown-content">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-btn-row">
+                        <a href="#" class="drop-btn-text">SHOP</a>
+                        <div class="dropdown">
+                            <button onclick="fifthFunction()" class="dropbtn" id="fif_div"><span><i class="fas fa-chevron-down"></i></span></button>
+                            <div id="fifthDropdown" class="dropdown-content">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-btn-row">
+                        <a href="#" class="drop-btn-text">BLOG</a>
+                        <div class="dropdown">
+                            <button onclick="sixthFunction()" class="dropbtn" id="six_div"><span><i class="fas fa-chevron-down"></i></span></button>
+                            <div id="sixthDropdown" class="dropdown-content">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="drop-btn-row">
+                        <a href="#" class="drop-btn-text">CONTACT</a>
+                    </div>
+                </div>
+            <!-- side nav icon bar -->
+            <div class="main-side ">
+                <div class="mobile-nav-toggler" id="logo" onclick="openNav()">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </div>
+            </div>
+            <!-- end side nav icon bar -->
+        
+            <ul class="links">
+              <li>
+                <a href="#">HOME</a>
+
+              </li>
+              <li>
+                <a href="#our-services" class="desktop-link">SERVICES</a>
+              </li>
+              <li>
+                <a href="#features" class="desktop-link">Features</a>
+
+              </li>
+              <li>
+                <a href="#blogs">blogs</a>
+                </li>
+              <li>
+                <a href="#faq">faq</a>
+                </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+                <li><a href="#our-team">our team</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+            <a href="#" class="text-logo" data-toggle="modal" data-target="#myModal">GET A FREE ESTIMATE</a>
+          </div>
+        </nav>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog washing-dialog">
+                <div class="modal-content">
+                
+                    <!-- Modal Header -->
+                    <div class="modal-header washing-header">
+                        <h2>GET A FREE ESTIMATE</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="washing-form">
+                            <form action="" method="">
+                                <input type="text" placeholder="First name">
+                                <input type="text" placeholder="Last name">
+                                <input type="text" placeholder="Email">
+                                <input type="text" placeholder="Property type">
+                                <input type="text" placeholder="Phone No">
+                                <input type="text" placeholder="Address">
+                                <textarea placeholder="Message" rows="4"></textarea>
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                   
+                    
+                </div>
+            </div>
+        </div>
+        
+    <!------------------------ banner on scroll navigation -------------------- -->
+    <nav class="wrapper-2 stricky ">
+        <a href="#" class="menu-1-logo">
+            <img src="images/Background (2).png">
+        </a>
+        <div class="content-2"> 
+          <!-- end side nav icon bar -->
+          <ul class="links">
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#our-services" class="desktop-link">SERVICES</a>
+            </li>
+              <li>
+                <a href="#features" class="desktop-link">Features</a>
+
+              </li>
+              <li>
+                <a href="#blogs">blogs</a>
+                </li>
+              <li>
+                <a href="#faq">faq</a>
+                </li>
+              <li>
+                <a href="#testimonials">Testimonials</a>
+              </li>
+                <li><a href="#our-team">our team</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+          </ul>
+         
+        </div>
+    </nav>
+
+    <!-------------------------------------- banner ----------------------------->
+    <section class="banner-carousal">
+        <div class=" owl-carousel owl-theme banner-slider">
+            <div class="item">
+               <div class="banner-1">
+                    <div class="banner-text">
+                        <div class="first-heading text-blue font-800">
+                            <h1>All Pressure Washing Jobs Big or Small</h1>
+                        </div>
+                        <div class="six-heading text-blue font-500 discover-btn-text">
+                            <h6>Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit.</h6>
+                        </div>
+                        <a href="#" class="discover-btn">DISCOVER MORE</a>
+                    </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="banner-2">
+                <div class="banner-text">
+                    <div class="first-heading text-blue font-800">
+                        <h1>All Pressure Washing Jobs Big or Small</h1>
+                    </div>
+                    <div class="six-heading text-blue font-500 discover-btn-text">
+                        <h6>Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit.</h6>
+                    </div>
+                    <a href="#" class="discover-btn">DISCOVER MORE</a>
+                </div>
+               </div>
+            </div>
+            <div class="item">
+                <div class="banner-3">
+                    <div class="banner-text">
+                        <div class="first-heading text-blue font-800">
+                            <h1>All Pressure Washing Jobs Big or Small</h1>
+                        </div>
+                        <div class="six-heading text-blue font-500 discover-btn-text">
+                            <h6>Excepteur sint occaecat cupidatat non proident sunt culpa qui officia deserunt mollit.</h6>
+                        </div>
+                        <a href="#" class="discover-btn">DISCOVER MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--------------------- icon category ---------------------->
+    <section class="icon-category-sec">
+        <div class="category-bg">
+            <div class="container-fluid">
+                <div class="row category-row">
+                    <div class="col-md-4">
+                        <div class="icon-row">
+                            <div class="icon-bg">
+                                <div class="icon-image">
+                                    <img src="images/smartphone.png">
+                                </div>
+                            </div>
+                            <div class="icon-text">
+                                <div class="third-heading font-700 text-blue icon-heading">
+                                    <h3>Expert Member</h3>
+                                </div>
+                                <div class="para font-500 text-grey icon-para">
+                                    <p>Excepteur sint ocecat pro sunt in culpa..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-row">
+                            <div class="icon-bg">
+                                <div class="icon-image">
+                                    <img src="images/graffiti.png">
+                                </div>
+                            </div>
+                            <div class="icon-text">
+                                <div class="third-heading font-700 text-blue icon-heading">
+                                    <h3>Quality washing</h3>
+                                </div>
+                                <div class="para font-500 text-grey icon-para">
+                                    <p>Excepteur sint ocecat pro sunt in culpa..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-row">
+                            <div class="icon-bg">
+                                <div class="icon-image">
+                                    <img src="images/cash.png">
+                                </div>
+                            </div>
+                            <div class="icon-text">
+                                <div class="third-heading font-700 text-blue icon-heading">
+                                    <h3>Free Estimate</h3>
+                                </div>
+                                <div class="para font-500 text-grey icon-para">
+                                    <p>Excepteur sint ocecat pro sunt in culpa..</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----------------------- welcome power sec  ---------------------->
+    <section class="welcome-power-sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="washing-row">
+                        <div class="washing-image">
+                            <img src="images/IMG_8806.png">
+                            <div class="washing-content-box ">
+                                <div class="bg-layer">
+                                   <h1 >20+</h1>
+                                   <h5>Years of <br>Exp</h5>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="washing-image-2">
+                            <img src="images/IMG-20201212-WA0004.png">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="washing-text">
+                        <div class="fourth-heading text-green pb-1">
+                            <h4>A Little Introduction</h4>
+                        </div>
+                        <div class="second-heading text-blue font-800">
+                            <h2>Welcome<br> To Our Power Pressure Washing Center.</h2>
+                        </div>
+                        <div class="para text-grey font-500 washing-para">
+                            <p>Quasi architebeat vitae dicta sunt explicabo nemo enim voluptam quia voluptassit aspernatur aut odit fugit sed quia consequuntur magni dolores.</p>
+                        </div>
+                        <div class="fourth-heading text-blue font-600">
+                            <h4>Important Information:</h4>
+                        </div>
+                        <div class="icon-list ">
+                            <ul>
+                                <li><span><i class="far fa-check-circle"></i></span> Professional technicians</li>
+                                <li><span><i class="far fa-check-circle"></i></span> Over 5 years experience</li>
+                            </ul>
+                        </div>  
+                        <a href="#" class="service-button">MORE SERVICES</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!----------------effective cleaning sec--------------> 
+   <section class="effective-sec">
+        <div class="effective-sec-bg" id="features">
+            <div class="container">
+                <div class="text-center effective-sec-text">
+                    <div class="fourth-heading text-green font-600">
+                        <h4>How It Works</h4>
+                    </div>
+                    <div class="second-heading text-blue font-800">
+                        <h2>The Most Thorough & Effective Cleaning Service.</h2>
+                    </div>
+                </div>
+             
+                <div class="row border-line-bg"
+                     data-aos="fade-up" 
+                     data-aos-duration="1000"
+                     data-aos-once="true">
+                    <div class="col-lg-3 col-md-6 service-image text-center service-image-item">
+                        <img src="images/work-1.png">
+                        <span>01</span>
+                        <div class="service-image-text">
+                            <div class="third-heading text-blue font-700">
+                                <h3>Create Your <br> Account</h3>
+                            </div>
+                            <div class="para text-grey font-500 text-center pt-4">
+                                <p>Lorem ipsum dolor sit amet contur adipis cing elit vam lacinia odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 service-image text-center service-image-item-2 ">
+                        <img src="images/work-2.png">
+                        <span>02</span>
+                        <div class="service-image-text">
+                            <div class="third-heading text-blue font-700 ">
+                                <h3>Easy Online <br> Booking</h3>
+                            </div>
+                            <div class="para text-grey font-500 text-center pt-4">
+                                <p>Lorem ipsum dolor sit amet contur adipis cing elit vam lacinia odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 service-image text-center service-image-item-3">
+                        <img src="images/work-3.png">
+                        <span>03</span>
+                        <div class="service-image-text">
+                            <div class="third-heading text-blue font-700">
+                                <h3>Get Clean & <br> Fresh</h3>
+                            </div>
+                            <div class="para text-grey font-500 pt-4">
+                                <p>Lorem ipsum dolor sit amet contur adipis cing elit vam lacinia odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 service-image text-center service-image-item-4">
+                        <img src="images/work-4.png">
+                        <span>04</span>
+                        <div class="service-image-text">
+                            <div class="third-heading text-blue font-700">
+                                <h3>Enjoy Our<br>
+                                    Service</h3>
+                            </div>
+                            <div class="para text-grey font-500 pt-4">
+                                <p>Lorem ipsum dolor sit amet contur adipis cing elit vam lacinia odio.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+                
+                
+           
+        </div>
+    </section>
+    <!------------------------- choose our service -------------------->
+    <section class="our-service-sec">
+        <div class="our-service-row">
+            <div class="our-service-bg">
+                <div class="our-service-bg-text">
+                    <div class="fourth-heading text-green font-500">
+                        <h4>Why Choose Us</h4>
+                    </div>
+                    <div class="second-heading text-white font-800">
+                        <h2>Why will You Choose Our Services?</h2>
+                    </div>
+                    <div class="para text-white font-500 pt-4">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="our-service-iconcolm">
+                        <div class="our-service-iconbox">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="icon-box-text">
+                            <div class="third-heading text-white font-600">
+                                <h3>Toxin-free Cleaning <br>Supplies</h3>
+                            </div>
+                            <div class="para font-500 text-grey pt-4">
+                                <p>Deserunt mollit anim id est perspiciatis unde omnisiste natus error.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="our-service-iconcolm">
+                        <div class="our-service-iconbox">
+                            <i class="fas fa-check text-white"></i>
+                        </div>
+                        <div class="icon-box-text">
+                            <div class="third-heading text-white font-600">
+                                <h3>Energy<br>
+                                    Efficient Equipment</h3>
+                            </div>
+                            <div class="para font-500 text-grey pt-4">
+                                <p>Deserunt mollit anim id est perspiciatis unde omnisiste natus error.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="our-service-bg-2">
+               <div class="our-service-bg-2-text">
+                    <div class="safety-box">
+                        <div class="safety-box-text">
+                            <div class="safety-icon">
+                                <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m474.858 104.6c-1.616-10.87-8.917-20.23-19.054-24.428l-187.788-77.767c-7.749-3.207-16.283-3.207-24.032 0l-187.788 77.767c-10.137 4.198-17.438 13.558-19.054 24.428-3.943 26.526-10.553 96.706 13.153 175.28 13.184 43.697 33.843 83.911 61.403 119.524 33.084 42.751 76.498 79.308 129.037 108.653 4.708 2.628 9.986 3.943 15.265 3.943 5.278 0 10.557-1.315 15.265-3.944 52.539-29.345 95.953-65.902 129.037-108.653 27.559-35.613 48.218-75.827 61.402-119.524 23.707-78.573 17.096-148.753 13.154-175.279zm-27.497 170.951c-28.168 93.359-89.872 167.183-183.401 219.424-4.907 2.741-11.007 2.742-15.917 0-93.53-52.24-155.236-126.065-183.403-219.424-22.831-75.674-16.471-143.221-12.677-168.749.846-5.692 4.665-10.592 9.966-12.786l187.788-77.767c2.026-.839 4.155-1.259 6.284-1.259 2.128 0 4.258.42 6.284 1.259l187.788 77.767c5.301 2.195 9.119 7.094 9.964 12.786 3.795 25.529 10.154 93.076-12.676 168.749z"/><path d="m417.006 115.377-73.397-29.954c-3.833-1.562-8.205.275-9.767 4.106s.275 8.204 4.106 9.767l73.397 29.954c3.768 1.537 6.479 4.951 7.076 8.908 3.031 20.095 8.111 73.266-10.128 132.841-22.499 73.489-71.815 131.618-146.577 172.771-3.524 1.939-7.904 1.939-11.428 0-74.763-41.153-124.079-99.281-146.578-172.771-18.241-59.574-13.161-112.745-10.13-132.841.597-3.958 3.308-7.371 7.077-8.908l150.826-61.553c2.87-1.172 6.166-1.173 9.037 0l45.298 18.487c3.832 1.562 8.205-.276 9.767-4.106 1.563-3.831-.275-8.204-4.106-9.767l-45.299-18.487c-6.565-2.679-13.794-2.677-20.359 0l-150.826 61.553c-8.631 3.522-14.851 11.396-16.231 20.547-3.183 21.107-8.521 76.949 10.618 139.461 10.647 34.777 27.33 66.781 49.586 95.122 26.699 33.999 61.721 63.064 104.094 86.388 3.991 2.197 8.464 3.295 12.939 3.295 4.474-.001 8.949-1.098 12.939-3.295 42.374-23.323 77.396-52.389 104.094-86.388 22.255-28.341 38.938-60.346 49.585-95.122 19.139-62.513 13.801-118.355 10.617-139.461-1.38-9.152-7.599-17.025-16.23-20.547z"/><path d="m241.069 346.855h29.863c10.69 0 19.388-8.656 19.388-19.296v-33.116c0-2.378 1.975-4.313 4.404-4.313h33.376c10.691 0 19.388-8.656 19.388-19.295v-29.63c0-10.64-8.697-19.296-19.388-19.296h-33.376c-2.429 0-4.404-1.934-4.404-4.312v-33.117c0-10.639-8.697-19.295-19.388-19.295h-29.863c-10.69 0-19.388 8.655-19.388 19.295v33.117c0 2.377-1.976 4.312-4.404 4.312h-33.377c-10.69 0-19.388 8.656-19.388 19.296v29.63c0 9.656 7.248 17.881 16.859 19.132 4.105.54 7.861-2.36 8.396-6.462.534-4.103-2.36-7.861-6.462-8.396-2.171-.283-3.809-2.12-3.809-4.273v-29.63c0-2.378 1.976-4.313 4.404-4.313h33.377c10.69 0 19.388-8.656 19.388-19.295v-33.117c0-2.377 1.976-4.312 4.404-4.312h29.863c2.429 0 4.404 1.934 4.404 4.312v33.117c0 10.639 8.697 19.295 19.387 19.295h33.376c2.429 0 4.405 1.934 4.405 4.313v29.63c0 2.377-1.976 4.312-4.405 4.312h-33.376c-10.69 0-19.387 8.656-19.387 19.296v33.116c0 2.378-1.975 4.313-4.404 4.313h-29.863c-2.428 0-4.404-1.934-4.404-4.313v-33.116c0-10.639-8.697-19.296-19.388-19.296-4.138 0-7.492 3.354-7.492 7.492s3.354 7.492 7.492 7.492c2.428 0 4.404 1.934 4.404 4.313v33.116c.001 10.638 8.698 19.294 19.388 19.294z"/></g></g></g></svg>
+                            </div>
+                            <div class="fifth-heading text-white font-800">
+                                <h5>Your Safety is Our First Priority</h5>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="safety-box-2">
+                        <div class="safety-box-text">
+                            <div class="safety-icon">
+                                <svg id="_x33_0" enable-background="new 0 0 64 64" height="512" viewBox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m61 27c1.103 0 2-.897 2-2v-10c0-1.103-.897-2-2-2h-23.347c-2.858-7.203-9.854-12-17.653-12-10.477 0-19 8.523-19 19 0 8.843 6.082 16.273 14.276 18.381-.177.517-.276 1.061-.276 1.619v20c0 1.654 1.346 3 3 3h4c1.654 0 3-1.346 3-3v-20c0-.555-.097-1.096-.273-1.611 2.246-.577 4.37-1.559 6.273-2.913v7.524c0 1.103.897 2 2 2h28c1.103 0 2-.897 2-2v-10c0-1.103-.897-2-2-2h-25.519c.884-1.24 1.602-2.581 2.164-4zm-36 0h5.948c-2.369 3.688-6.505 6-10.948 6-7.168 0-13-5.832-13-13s5.832-13 13-13c4.443 0 8.579 2.312 10.948 6h-5.948c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2zm0-2v-10h12v10zm36.001 0h-22.001v-10h22zm-39.001 36h-4c-.551 0-1-.449-1-1v-15h6v15c0 .551-.449 1-1 1zm1-21v3h-6v-3c0-.426.095-.838.265-1.22.896.13 1.804.22 2.735.22.923 0 1.834-.086 2.736-.217.17.381.264.792.264 1.217zm10-7h14v10h-14zm28 10h-12v-10h12zm-28.063-11.994c-1.052.034-1.897.879-1.93 1.932-3.072 2.615-6.959 4.062-11.007 4.062-9.374 0-17-7.626-17-17s7.626-17 17-17c6.711 0 12.765 3.965 15.493 10h-2.234c-2.583-4.877-7.713-8-13.259-8-8.271 0-15 6.729-15 15s6.729 15 15 15c5.546 0 10.676-3.123 13.259-8h2.228c-.653 1.447-1.511 2.786-2.55 4.006z"/><path d="m57 19h2v2h-2z"/><path d="m53 19h2v2h-2z"/><path d="m49 19h2v2h-2z"/><path d="m45 19h2v2h-2z"/><path d="m41 19h2v2h-2z"/><path d="m34.293 16.293-5.293 5.293-1.293-1.293-1.414 1.414 2.707 2.707 6.707-6.707z"/><path d="m57 49h-28c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h28c1.103 0 2-.897 2-2v-10c0-1.103-.897-2-2-2zm-28 2h12v10h-12zm14 10v-10h14l.001 10z"/><path d="m53 55h2v2h-2z"/><path d="m49 55h2v2h-2z"/><path d="m45 55h2v2h-2z"/><path d="m35 37h2v2h-2z"/><path d="m39 37h2v2h-2z"/><path d="m43 37h2v2h-2z"/><path d="m38.293 52.293-5.293 5.293-1.293-1.293-1.414 1.414 2.707 2.707 6.707-6.707z"/><path d="m51.293 40.293 1.414 1.414 2.293-2.293 2.293 2.293 1.414-1.414-2.293-2.293 2.293-2.293-1.414-1.414-2.293 2.293-2.293-2.293-1.414 1.414 2.293 2.293z"/></g></svg>
+                            </div>
+                            <div class="fifth-heading text-white font-800">
+                                <h5>Done Right From Start to Finish</h5>
+                            </div>
+                        </div> 
+                    </div>
+               </div>
+            </div>    
+        
+        </div>
+    </section>
+    <!---------------------- our services sec  ------------------->
+    <section class="our-services-sec" id="our-services">
+        <div class="container-fluid">
+            <div class="text-center effective-sec-text">
+                <div class="fourth-heading text-green font-600">
+                    <h4>Our Services</h4>
+                </div>
+                <div class="second-heading text-blue font-800">
+                    <h2>Serving Professional Washing
+                        Services
+                    </h2>
+                </div>
+            </div>
+             <!-- Nav pills -->
+            <ul class="nav nav-pills residence-tab" role="tablist">
+                <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#RESIDENCIAL">RESIDENCIAL</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#COMMERICAL">COMMERICAL</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="RESIDENCIAL" class="container-fluid tab-pane active">
+                    <div class="row service-tabs-row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="services-tab">
+                                <div class="service-tab-image">
+                                    <a href="#">
+                                        <img src="images/service-details-5.jpg">
+                                    </a>
+                                </div>
+                                <div class="service-tab-icon">
+                                   <svg id="Layer_1" height="512" viewBox="0 0 128 128" width="512" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m29.537 84.308v19.5a1.75 1.75 0 0 0 1.75 1.75h34a1.75 1.75 0 0 0 1.75-1.75v-19.5a1.749 1.749 0 0 0 -1.75-1.75h-34a1.749 1.749 0 0 0 -1.75 1.75zm3.5 1.75h30.5v16h-30.5z"/><path d="m36.287 38.417a1.75 1.75 0 0 0 0 3.5h24a1.75 1.75 0 1 0 0-3.5z"/><path d="m36.287 49.75h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m36.287 57.583h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m122.493 24.066a1.753 1.753 0 0 0 -1.617-.194l-8.547 3.26h-3.835c-2.316-5.787-8.213-14.674-22.916-17.471a53.294 53.294 0 0 0 -25.229 1.185v-4.346a1.751 1.751 0 0 0 -1.749-1.75h-20.626a1.751 1.751 0 0 0 -1.75 1.75v15.94h-2.8a13.733 13.733 0 0 0 -13.732 13.051l-2.748 53.633a7.739 7.739 0 0 0 -12.194 6.339v20.037a7.744 7.744 0 0 0 13.188 5.514 7.746 7.746 0 0 0 5.412 2.236h49.87a7.748 7.748 0 0 0 5.414-2.238 7.744 7.744 0 0 0 13.189-5.512v-20.037a7.739 7.739 0 0 0 -12.195-6.338l-2.74-53.635a13.753 13.753 0 0 0 -13.738-13.05h-2.8v-7.889a49.948 49.948 0 0 1 24.573-1.451c12.018 2.287 17.379 9.028 19.748 14.033h-1.019a1.751 1.751 0 0 0 -1.75 1.75v20.117a1.746 1.746 0 0 0 1.5 1.725v54.8a1.745 1.745 0 0 0 -1.5 1.652l-.6 14.247a1.75 1.75 0 0 0 1.748 1.823h10.2a1.75 1.75 0 0 0 1.75-1.82l-.6-14.247a1.745 1.745 0 0 0 -1.5-1.652v-54.8a1.744 1.744 0 0 0 1.5-1.728v-13.347l7.343-1.038a1.75 1.75 0 0 0 1.5-1.733v-7.375a1.751 1.751 0 0 0 -.75-1.441zm-82.769-15.816h17.125v3.855c-5.866 2.445-10.03 6.059-11.926 10.335h-5.2zm-27.224 111.5a4.255 4.255 0 0 1 -4.25-4.25v-20.037a4.25 4.25 0 0 1 8.5 0v20.037a4.255 4.255 0 0 1 -4.25 4.25zm71.573-28.537a4.255 4.255 0 0 1 4.25 4.25v20.037a4.25 4.25 0 0 1 -8.5 0v-20.037a4.255 4.255 0 0 1 4.25-4.25zm-10.681-55.544 3.008 58.781a7.866 7.866 0 0 0 -.074 1.013v20.037a7.727 7.727 0 0 0 .389 2.411 4.249 4.249 0 0 1 -3.492 1.839h-49.873a4.251 4.251 0 0 1 -3.489-1.838 7.733 7.733 0 0 0 .389-2.412v-20.037a7.765 7.765 0 0 0 -.075-1.017l3.012-58.779a10.237 10.237 0 0 1 10.233-9.727h4.53.024 20.626.024 4.526a10.255 10.255 0 0 1 10.242 9.729zm-24.518-13.229a18.571 18.571 0 0 1 7.975-6.505v6.505zm58.026 83.06v-54.75h2.5v54.75zm4-71.371v13.121h-5.5v-16.618h5.5zm-6.021 85.618.45-10.747h5.644l.45 10.747zm14.871-88.385-5.348.756v-2.03l5.348-2.04z"/></svg>
+                                </div>
+                                <a href="#" class="pressue-text">
+                                    Pressure Washing
+                                </a>
+                                <div class="para text-grey font-500 pressure-para">
+                                    <p>Lorem ipsum dolor sit amet contur adipis cing elit vam us lacinia odio vestibulum</p>
+                                </div>
+                                <a href="#" class="service-button readmore">READ MORE</a>
+                                <span class="service-bottom-image">
+                                    <svg id="Layer_1" height="512" viewBox="0 0 128 128" width="512" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m29.537 84.308v19.5a1.75 1.75 0 0 0 1.75 1.75h34a1.75 1.75 0 0 0 1.75-1.75v-19.5a1.749 1.749 0 0 0 -1.75-1.75h-34a1.749 1.749 0 0 0 -1.75 1.75zm3.5 1.75h30.5v16h-30.5z"/><path d="m36.287 38.417a1.75 1.75 0 0 0 0 3.5h24a1.75 1.75 0 1 0 0-3.5z"/><path d="m36.287 49.75h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m36.287 57.583h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m122.493 24.066a1.753 1.753 0 0 0 -1.617-.194l-8.547 3.26h-3.835c-2.316-5.787-8.213-14.674-22.916-17.471a53.294 53.294 0 0 0 -25.229 1.185v-4.346a1.751 1.751 0 0 0 -1.749-1.75h-20.626a1.751 1.751 0 0 0 -1.75 1.75v15.94h-2.8a13.733 13.733 0 0 0 -13.732 13.051l-2.748 53.633a7.739 7.739 0 0 0 -12.194 6.339v20.037a7.744 7.744 0 0 0 13.188 5.514 7.746 7.746 0 0 0 5.412 2.236h49.87a7.748 7.748 0 0 0 5.414-2.238 7.744 7.744 0 0 0 13.189-5.512v-20.037a7.739 7.739 0 0 0 -12.195-6.338l-2.74-53.635a13.753 13.753 0 0 0 -13.738-13.05h-2.8v-7.889a49.948 49.948 0 0 1 24.573-1.451c12.018 2.287 17.379 9.028 19.748 14.033h-1.019a1.751 1.751 0 0 0 -1.75 1.75v20.117a1.746 1.746 0 0 0 1.5 1.725v54.8a1.745 1.745 0 0 0 -1.5 1.652l-.6 14.247a1.75 1.75 0 0 0 1.748 1.823h10.2a1.75 1.75 0 0 0 1.75-1.82l-.6-14.247a1.745 1.745 0 0 0 -1.5-1.652v-54.8a1.744 1.744 0 0 0 1.5-1.728v-13.347l7.343-1.038a1.75 1.75 0 0 0 1.5-1.733v-7.375a1.751 1.751 0 0 0 -.75-1.441zm-82.769-15.816h17.125v3.855c-5.866 2.445-10.03 6.059-11.926 10.335h-5.2zm-27.224 111.5a4.255 4.255 0 0 1 -4.25-4.25v-20.037a4.25 4.25 0 0 1 8.5 0v20.037a4.255 4.255 0 0 1 -4.25 4.25zm71.573-28.537a4.255 4.255 0 0 1 4.25 4.25v20.037a4.25 4.25 0 0 1 -8.5 0v-20.037a4.255 4.255 0 0 1 4.25-4.25zm-10.681-55.544 3.008 58.781a7.866 7.866 0 0 0 -.074 1.013v20.037a7.727 7.727 0 0 0 .389 2.411 4.249 4.249 0 0 1 -3.492 1.839h-49.873a4.251 4.251 0 0 1 -3.489-1.838 7.733 7.733 0 0 0 .389-2.412v-20.037a7.765 7.765 0 0 0 -.075-1.017l3.012-58.779a10.237 10.237 0 0 1 10.233-9.727h4.53.024 20.626.024 4.526a10.255 10.255 0 0 1 10.242 9.729zm-24.518-13.229a18.571 18.571 0 0 1 7.975-6.505v6.505zm58.026 83.06v-54.75h2.5v54.75zm4-71.371v13.121h-5.5v-16.618h5.5zm-6.021 85.618.45-10.747h5.644l.45 10.747zm14.871-88.385-5.348.756v-2.03l5.348-2.04z"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="services-tab">
+                                <div class="service-tab-image">
+                                    <a href="#">
+                                        <img src="images/service-details-5.jpg">
+                                    </a>
+                                </div>
+                                <div class="service-tab-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_3" data-name="Layer 3" viewBox="0 0 64 64" width="512" height="512"><path d="M62.707,31.293l-30-30a1,1,0,0,0-1.414,0l-30,30A1,1,0,0,0,2,33H7V57H6a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H58a1,1,0,0,0,1-1V58a1,1,0,0,0-1-1H57V33h5a1,1,0,0,0,.707-1.707ZM57,61H7V59H57ZM27,57H15V39H27Zm2,0V38a1,1,0,0,0-1-1H14a1,1,0,0,0-1,1V57H9V32.414l23-23,23,23V57ZM56.414,31,32.707,7.293a1,1,0,0,0-1.414,0L7.586,31H4.414L32,3.414,59.586,31Z"/><path d="M39,26a7,7,0,1,0-7,7A7.008,7.008,0,0,0,39,26ZM27,26a5,5,0,1,1,5,5A5.006,5.006,0,0,1,27,26Z"/><path d="M52,37H32a1,1,0,0,0-1,1V52a1,1,0,0,0,1,1H52a1,1,0,0,0,1-1V38A1,1,0,0,0,52,37Zm-1,7H43V39h8ZM41,39v5H33V39Zm-8,7h8v5H33Zm10,5V46h8v5Z"/><rect x="17" y="45" width="2" height="4"/></svg>
+                                </div>
+                                <a href="#" class="pressue-text">
+                                    House Wshing
+                                </a>
+                                <div class="para text-grey font-500 pressure-para">
+                                    <p>Lorem ipsum dolor sit amet contur adipis cing elit vam us lacinia odio vestibulum</p>
+                                </div>
+                                <a href="#" class="service-button readmore"><span>READ MORE</span></a>
+                                <span class="service-bottom-image">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_3" data-name="Layer 3" viewBox="0 0 64 64" width="512" height="512"><path d="M62.707,31.293l-30-30a1,1,0,0,0-1.414,0l-30,30A1,1,0,0,0,2,33H7V57H6a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H58a1,1,0,0,0,1-1V58a1,1,0,0,0-1-1H57V33h5a1,1,0,0,0,.707-1.707ZM57,61H7V59H57ZM27,57H15V39H27Zm2,0V38a1,1,0,0,0-1-1H14a1,1,0,0,0-1,1V57H9V32.414l23-23,23,23V57ZM56.414,31,32.707,7.293a1,1,0,0,0-1.414,0L7.586,31H4.414L32,3.414,59.586,31Z"/><path d="M39,26a7,7,0,1,0-7,7A7.008,7.008,0,0,0,39,26ZM27,26a5,5,0,1,1,5,5A5.006,5.006,0,0,1,27,26Z"/><path d="M52,37H32a1,1,0,0,0-1,1V52a1,1,0,0,0,1,1H52a1,1,0,0,0,1-1V38A1,1,0,0,0,52,37Zm-1,7H43V39h8ZM41,39v5H33V39Zm-8,7h8v5H33Zm10,5V46h8v5Z"/><rect x="17" y="45" width="2" height="4"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="services-tab">
+                                <div class="service-tab-image">
+                                    <a href="#">
+                                        <img src="images/service-details-5.jpg">
+                                    </a>
+                                </div>
+                                <div class="service-tab-icon">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                               <g>
+                                   <g>
+                                       <path d="M502.737,0H9.265C4.148,0,0.001,4.148,0.001,9.264v139.175c0,5.116,4.148,9.264,9.264,9.264
+                                           c5.116,0,9.264-4.148,9.264-9.264v-47.865l50.242,50.242l-50.242,50.242v-22.355c0-5.116-4.148-9.264-9.264-9.264
+                                           c-5.116,0-9.264,4.148-9.264,9.264v324.034c0,5.116,4.148,9.264,9.264,9.264h493.471c5.116,0,9.264-4.148,9.264-9.264V9.264
+                                           C512.001,4.148,507.853,0,502.737,0z M478.601,18.528L430.128,67L381.65,18.528H478.601z M338.945,18.528L290.474,67
+                                           l-48.483-48.472H338.945z M305.042,107.777c3.618,3.618,9.484,3.618,13.1,0c3.618-3.618,3.618-9.483,0-13.101l-14.57-14.57
+                                           l56.723-56.723l127.44,127.433l-56.727,56.727l-91.869-91.869c-3.618-3.618-9.484-3.618-13.1,0c-3.618,3.618-3.618,9.483,0,13.101
+                                           l22.042,22.042l-56.725,56.727L163.919,80.106l56.723-56.723L305.042,107.777z M278.255,220.644L150.817,348.082l-56.725-56.725
+                                           l127.437-127.438L278.255,220.644z M199.293,18.528L150.821,67l-48.48-48.472H199.293z M18.529,18.528h41.11l-41.11,41.11V18.528z
+                                            M24.269,80.101l56.719-56.719l127.439,127.434L151.7,207.542L24.269,80.101z M18.529,227.252c0.021-0.02,0.043-0.037,0.063-0.057
+                                           l63.28-63.279l56.723,56.728L18.529,340.716V227.252z M18.529,381.652l50.245,50.245l-50.245,50.234V381.652z M33.392,493.472
+                                           l48.485-48.474l48.474,48.474H33.392z M24.269,361.187l56.723-56.729l127.435,127.435L151.7,488.619L24.269,361.187z
+                                            M173.052,493.472l48.477-48.477l48.477,48.477H173.052z M163.918,361.182l56.727-56.725l127.437,127.437l-56.725,56.727
+                                           L163.918,361.182z M312.706,493.472l48.477-48.477l48.477,48.477H312.706z M303.573,361.182l18.82-18.819
+                                           c3.618-3.618,3.618-9.483,0-13.101c-3.618-3.618-9.484-3.618-13.101,0l-18.82,18.82l-56.727-56.727l127.437-127.437l56.727,56.727
+                                           l-90.089,90.089c-3.618,3.618-3.618,9.483,0,13.101c3.618,3.618,9.484,3.618,13.101,0l19.378-19.378l127.435,127.439
+                                           L431.01,488.62L303.573,361.182z M493.471,493.472H452.36l41.111-41.111V493.472z M493.471,411.426l-50.241-50.24l50.241-50.253
+                                           V411.426z M493.397,284.804l-63.267,63.282l-56.73-56.729l120.071-120.072v113.452h0.001
+                                           C493.448,284.759,493.422,284.78,493.397,284.804z M493.473,130.343l-50.242-50.242l50.242-50.242V130.343z"/>
+                                   </g>
+                               </g>
+                               </svg>
+                               
+                                </div>
+                                <a href="#" class="pressue-text">
+                                    Wood Restoration
+                                </a>
+                                <div class="para text-grey font-500 pressure-para">
+                                    <p>Lorem ipsum dolor sit amet contur adipis cing elit vam us lacinia odio vestibulum</p>
+                                </div>
+                                <a href="#" class="service-button readmore"><span>READ MORE</span></a>
+                                <span class="service-bottom-image">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path d="M502.737,0H9.265C4.148,0,0.001,4.148,0.001,9.264v139.175c0,5.116,4.148,9.264,9.264,9.264
+                                                    c5.116,0,9.264-4.148,9.264-9.264v-47.865l50.242,50.242l-50.242,50.242v-22.355c0-5.116-4.148-9.264-9.264-9.264
+                                                    c-5.116,0-9.264,4.148-9.264,9.264v324.034c0,5.116,4.148,9.264,9.264,9.264h493.471c5.116,0,9.264-4.148,9.264-9.264V9.264
+                                                    C512.001,4.148,507.853,0,502.737,0z M478.601,18.528L430.128,67L381.65,18.528H478.601z M338.945,18.528L290.474,67
+                                                    l-48.483-48.472H338.945z M305.042,107.777c3.618,3.618,9.484,3.618,13.1,0c3.618-3.618,3.618-9.483,0-13.101l-14.57-14.57
+                                                    l56.723-56.723l127.44,127.433l-56.727,56.727l-91.869-91.869c-3.618-3.618-9.484-3.618-13.1,0c-3.618,3.618-3.618,9.483,0,13.101
+                                                    l22.042,22.042l-56.725,56.727L163.919,80.106l56.723-56.723L305.042,107.777z M278.255,220.644L150.817,348.082l-56.725-56.725
+                                                    l127.437-127.438L278.255,220.644z M199.293,18.528L150.821,67l-48.48-48.472H199.293z M18.529,18.528h41.11l-41.11,41.11V18.528z
+                                                    M24.269,80.101l56.719-56.719l127.439,127.434L151.7,207.542L24.269,80.101z M18.529,227.252c0.021-0.02,0.043-0.037,0.063-0.057
+                                                    l63.28-63.279l56.723,56.728L18.529,340.716V227.252z M18.529,381.652l50.245,50.245l-50.245,50.234V381.652z M33.392,493.472
+                                                    l48.485-48.474l48.474,48.474H33.392z M24.269,361.187l56.723-56.729l127.435,127.435L151.7,488.619L24.269,361.187z
+                                                    M173.052,493.472l48.477-48.477l48.477,48.477H173.052z M163.918,361.182l56.727-56.725l127.437,127.437l-56.725,56.727
+                                                    L163.918,361.182z M312.706,493.472l48.477-48.477l48.477,48.477H312.706z M303.573,361.182l18.82-18.819
+                                                    c3.618-3.618,3.618-9.483,0-13.101c-3.618-3.618-9.484-3.618-13.101,0l-18.82,18.82l-56.727-56.727l127.437-127.437l56.727,56.727
+                                                    l-90.089,90.089c-3.618,3.618-3.618,9.483,0,13.101c3.618,3.618,9.484,3.618,13.101,0l19.378-19.378l127.435,127.439
+                                                    L431.01,488.62L303.573,361.182z M493.471,493.472H452.36l41.111-41.111V493.472z M493.471,411.426l-50.241-50.24l50.241-50.253
+                                                    V411.426z M493.397,284.804l-63.267,63.282l-56.73-56.729l120.071-120.072v113.452h0.001
+                                                    C493.448,284.759,493.422,284.78,493.397,284.804z M493.473,130.343l-50.242-50.242l50.242-50.242V130.343z"/>
+                                            </g>
+                                        </g>
+                                        </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="COMMERICAL" class="container-fluid tab-pane fade">
+                    <div class="row service-tabs-row">
+                        <div class="col-md-4">
+                            <div class="services-tab">
+                                <div class="service-tab-image">
+                                    <a href="#">
+                                        <img src="images/service-details-5.jpg">
+                                    </a>
+                                </div>
+                                <div class="service-tab-icon">
+                                   <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m474.858 104.6c-1.616-10.87-8.917-20.23-19.054-24.428l-187.788-77.767c-7.749-3.207-16.283-3.207-24.032 0l-187.788 77.767c-10.137 4.198-17.438 13.558-19.054 24.428-3.943 26.526-10.553 96.706 13.153 175.28 13.184 43.697 33.843 83.911 61.403 119.524 33.084 42.751 76.498 79.308 129.037 108.653 4.708 2.628 9.986 3.943 15.265 3.943 5.278 0 10.557-1.315 15.265-3.944 52.539-29.345 95.953-65.902 129.037-108.653 27.559-35.613 48.218-75.827 61.402-119.524 23.707-78.573 17.096-148.753 13.154-175.279zm-27.497 170.951c-28.168 93.359-89.872 167.183-183.401 219.424-4.907 2.741-11.007 2.742-15.917 0-93.53-52.24-155.236-126.065-183.403-219.424-22.831-75.674-16.471-143.221-12.677-168.749.846-5.692 4.665-10.592 9.966-12.786l187.788-77.767c2.026-.839 4.155-1.259 6.284-1.259 2.128 0 4.258.42 6.284 1.259l187.788 77.767c5.301 2.195 9.119 7.094 9.964 12.786 3.795 25.529 10.154 93.076-12.676 168.749z"/><path d="m417.006 115.377-73.397-29.954c-3.833-1.562-8.205.275-9.767 4.106s.275 8.204 4.106 9.767l73.397 29.954c3.768 1.537 6.479 4.951 7.076 8.908 3.031 20.095 8.111 73.266-10.128 132.841-22.499 73.489-71.815 131.618-146.577 172.771-3.524 1.939-7.904 1.939-11.428 0-74.763-41.153-124.079-99.281-146.578-172.771-18.241-59.574-13.161-112.745-10.13-132.841.597-3.958 3.308-7.371 7.077-8.908l150.826-61.553c2.87-1.172 6.166-1.173 9.037 0l45.298 18.487c3.832 1.562 8.205-.276 9.767-4.106 1.563-3.831-.275-8.204-4.106-9.767l-45.299-18.487c-6.565-2.679-13.794-2.677-20.359 0l-150.826 61.553c-8.631 3.522-14.851 11.396-16.231 20.547-3.183 21.107-8.521 76.949 10.618 139.461 10.647 34.777 27.33 66.781 49.586 95.122 26.699 33.999 61.721 63.064 104.094 86.388 3.991 2.197 8.464 3.295 12.939 3.295 4.474-.001 8.949-1.098 12.939-3.295 42.374-23.323 77.396-52.389 104.094-86.388 22.255-28.341 38.938-60.346 49.585-95.122 19.139-62.513 13.801-118.355 10.617-139.461-1.38-9.152-7.599-17.025-16.23-20.547z"/><path d="m241.069 346.855h29.863c10.69 0 19.388-8.656 19.388-19.296v-33.116c0-2.378 1.975-4.313 4.404-4.313h33.376c10.691 0 19.388-8.656 19.388-19.295v-29.63c0-10.64-8.697-19.296-19.388-19.296h-33.376c-2.429 0-4.404-1.934-4.404-4.312v-33.117c0-10.639-8.697-19.295-19.388-19.295h-29.863c-10.69 0-19.388 8.655-19.388 19.295v33.117c0 2.377-1.976 4.312-4.404 4.312h-33.377c-10.69 0-19.388 8.656-19.388 19.296v29.63c0 9.656 7.248 17.881 16.859 19.132 4.105.54 7.861-2.36 8.396-6.462.534-4.103-2.36-7.861-6.462-8.396-2.171-.283-3.809-2.12-3.809-4.273v-29.63c0-2.378 1.976-4.313 4.404-4.313h33.377c10.69 0 19.388-8.656 19.388-19.295v-33.117c0-2.377 1.976-4.312 4.404-4.312h29.863c2.429 0 4.404 1.934 4.404 4.312v33.117c0 10.639 8.697 19.295 19.387 19.295h33.376c2.429 0 4.405 1.934 4.405 4.313v29.63c0 2.377-1.976 4.312-4.405 4.312h-33.376c-10.69 0-19.387 8.656-19.387 19.296v33.116c0 2.378-1.975 4.313-4.404 4.313h-29.863c-2.428 0-4.404-1.934-4.404-4.313v-33.116c0-10.639-8.697-19.296-19.388-19.296-4.138 0-7.492 3.354-7.492 7.492s3.354 7.492 7.492 7.492c2.428 0 4.404 1.934 4.404 4.313v33.116c.001 10.638 8.698 19.294 19.388 19.294z"/></g></g></g></svg>
+                                </div>
+                                <a href="#" class="pressue-text">
+                                    Office Washing
+                                </a>
+                                <div class="para text-grey font-500 pressure-para">
+                                    <p>Lorem ipsum dolor sit amet contur adipis cing elit vam us lacinia odio vestibulum</p>
+                                </div>
+                                <a href="#" class="service-button readmore"><span>READ MORE</span></a>
+                                <span class="service-bottom-image">
+                                    <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m474.858 104.6c-1.616-10.87-8.917-20.23-19.054-24.428l-187.788-77.767c-7.749-3.207-16.283-3.207-24.032 0l-187.788 77.767c-10.137 4.198-17.438 13.558-19.054 24.428-3.943 26.526-10.553 96.706 13.153 175.28 13.184 43.697 33.843 83.911 61.403 119.524 33.084 42.751 76.498 79.308 129.037 108.653 4.708 2.628 9.986 3.943 15.265 3.943 5.278 0 10.557-1.315 15.265-3.944 52.539-29.345 95.953-65.902 129.037-108.653 27.559-35.613 48.218-75.827 61.402-119.524 23.707-78.573 17.096-148.753 13.154-175.279zm-27.497 170.951c-28.168 93.359-89.872 167.183-183.401 219.424-4.907 2.741-11.007 2.742-15.917 0-93.53-52.24-155.236-126.065-183.403-219.424-22.831-75.674-16.471-143.221-12.677-168.749.846-5.692 4.665-10.592 9.966-12.786l187.788-77.767c2.026-.839 4.155-1.259 6.284-1.259 2.128 0 4.258.42 6.284 1.259l187.788 77.767c5.301 2.195 9.119 7.094 9.964 12.786 3.795 25.529 10.154 93.076-12.676 168.749z"/><path d="m417.006 115.377-73.397-29.954c-3.833-1.562-8.205.275-9.767 4.106s.275 8.204 4.106 9.767l73.397 29.954c3.768 1.537 6.479 4.951 7.076 8.908 3.031 20.095 8.111 73.266-10.128 132.841-22.499 73.489-71.815 131.618-146.577 172.771-3.524 1.939-7.904 1.939-11.428 0-74.763-41.153-124.079-99.281-146.578-172.771-18.241-59.574-13.161-112.745-10.13-132.841.597-3.958 3.308-7.371 7.077-8.908l150.826-61.553c2.87-1.172 6.166-1.173 9.037 0l45.298 18.487c3.832 1.562 8.205-.276 9.767-4.106 1.563-3.831-.275-8.204-4.106-9.767l-45.299-18.487c-6.565-2.679-13.794-2.677-20.359 0l-150.826 61.553c-8.631 3.522-14.851 11.396-16.231 20.547-3.183 21.107-8.521 76.949 10.618 139.461 10.647 34.777 27.33 66.781 49.586 95.122 26.699 33.999 61.721 63.064 104.094 86.388 3.991 2.197 8.464 3.295 12.939 3.295 4.474-.001 8.949-1.098 12.939-3.295 42.374-23.323 77.396-52.389 104.094-86.388 22.255-28.341 38.938-60.346 49.585-95.122 19.139-62.513 13.801-118.355 10.617-139.461-1.38-9.152-7.599-17.025-16.23-20.547z"/><path d="m241.069 346.855h29.863c10.69 0 19.388-8.656 19.388-19.296v-33.116c0-2.378 1.975-4.313 4.404-4.313h33.376c10.691 0 19.388-8.656 19.388-19.295v-29.63c0-10.64-8.697-19.296-19.388-19.296h-33.376c-2.429 0-4.404-1.934-4.404-4.312v-33.117c0-10.639-8.697-19.295-19.388-19.295h-29.863c-10.69 0-19.388 8.655-19.388 19.295v33.117c0 2.377-1.976 4.312-4.404 4.312h-33.377c-10.69 0-19.388 8.656-19.388 19.296v29.63c0 9.656 7.248 17.881 16.859 19.132 4.105.54 7.861-2.36 8.396-6.462.534-4.103-2.36-7.861-6.462-8.396-2.171-.283-3.809-2.12-3.809-4.273v-29.63c0-2.378 1.976-4.313 4.404-4.313h33.377c10.69 0 19.388-8.656 19.388-19.295v-33.117c0-2.377 1.976-4.312 4.404-4.312h29.863c2.429 0 4.404 1.934 4.404 4.312v33.117c0 10.639 8.697 19.295 19.387 19.295h33.376c2.429 0 4.405 1.934 4.405 4.313v29.63c0 2.377-1.976 4.312-4.405 4.312h-33.376c-10.69 0-19.387 8.656-19.387 19.296v33.116c0 2.378-1.975 4.313-4.404 4.313h-29.863c-2.428 0-4.404-1.934-4.404-4.313v-33.116c0-10.639-8.697-19.296-19.388-19.296-4.138 0-7.492 3.354-7.492 7.492s3.354 7.492 7.492 7.492c2.428 0 4.404 1.934 4.404 4.313v33.116c.001 10.638 8.698 19.294 19.388 19.294z"/></g></g></g></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="services-tab">
+                                <div class="service-tab-image">
+                                    <a href="#">
+                                        <img src="images/service-details-5.jpg">
+                                    </a>
+                                </div>
+                                <div class="service-tab-icon">
+                                  <svg height="480pt" viewBox="0 -24 480.00005 480" width="480pt" xmlns="http://www.w3.org/2000/svg"><path d="m192.644531 48.757812 5.105469-11.90625 14.703125 6.308594-5.101563 11.902344zm0 0"/><path d="m173.75 92.84375 13.714844-32 14.707031 6.300781-13.714844 32.003907zm0 0"/><path d="m454.398438 83.199219c-1.507813-2.011719-3.878907-3.199219-6.398438-3.199219h-72c-4.417969 0-8 3.582031-8 8v24h-18.726562l-45.921876-107.152344c-1.261718-2.941406-4.152343-4.847656-7.351562-4.847656h-112c-3.199219 0-6.089844 1.90625-7.351562 4.847656l-45.921876 107.152344h-18.726562v-24c0-4.417969-3.582031-8-8-8h-32c-4.417969 0-8 3.582031-8 8v10.304688l-16.222656-36.496094c-1.148438-12.761719-12.140625-22.359375-24.9375-21.769532-12.800782.585938-22.8671878 11.148438-22.839844 23.960938v144c0 13.253906 10.746094 24 24 24s24-10.746094 24-24v-6.113281l16-32v138.824219c-28.113281 11.324218-44.429688 40.816406-39.082031 70.652343 5.34375 29.832031 30.882812 51.828125 61.179687 52.6875s57.039063-19.648437 64.070313-49.128906l181.601562-36.3125c-11.738281 32.972656 5.195313 69.261719 38.003907 81.449219 32.8125 12.191406 69.328124-4.238282 81.96875-36.875 12.644531-32.640625-3.28125-69.378906-35.742188-82.472656v-20.710938h24c4.417969 0 8-3.582031 8-8v-24h24c4.417969 0 8-3.582031 8-8v-128c0-1.730469-.5625-3.414062-1.601562-4.800781zm-310.398438 76.800781h192v24c-.035156 30.914062-25.085938 55.964844-56 56h-80c-30.914062-.035156-55.964844-25.085938-56-56zm192-16h-192v-16h192zm-136 112h80c39.746094-.046875 71.953125-32.253906 72-72v-24h16v112h-256v-112h16v24c.046875 39.746094 32.253906 71.953125 72 72zm-88 32h256v16h-256zm256-144h-16v-16h16zm-178.726562-128h101.453124l41.144532 96h-183.742188zm-61.273438 112v16h-16v-16zm-80-26.304688 11.6875 26.304688h-11.6875zm-16 106.304688c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8v-144c0-4.417969 3.582031-8 8-8s8 3.582031 8 8zm16-64h11.054688l-11.054688 22.113281zm32-48h16v208.550781c-5.308594-.734375-10.691406-.734375-16 0zm8 320c-26.507812 0-48-21.492188-48-48s21.492188-48 48-48 48 21.492188 48 48c-.027344 26.5-21.5 47.972656-48 48zm63.910156-49.742188c-.472656-17.773437-8.347656-34.539062-21.71875-46.257812h219.617188c-2.867188 2.515625-5.503906 5.277344-7.878906 8.257812zm288.089844 1.742188c0 26.507812-21.492188 48-48 48s-48-21.492188-48-48 21.492188-48 48-48c26.5.027344 47.972656 21.5 48 48zm-48-64c-2.675781.019531-5.347656.203125-8 .550781v-208.550781h16v208.550781c-2.652344-.347656-5.324219-.53125-8-.550781zm40-32h-16v-16h16zm32-32h-48v-144h28l20 26.664062zm0 0"/><path d="m88 344c-13.253906 0-24 10.746094-24 24s10.746094 24 24 24 24-10.746094 24-24-10.746094-24-24-24zm0 32c-4.417969 0-8-3.582031-8-8s3.582031-8 8-8 8 3.582031 8 8-3.582031 8-8 8zm0 0"/><path d="m368 368c0 13.253906 10.746094 24 24 24s24-10.746094 24-24-10.746094-24-24-24-24 10.746094-24 24zm32 0c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8 3.582031-8 8-8 8 3.582031 8 8zm0 0"/><path d="m432 128h16v16h-16zm0 0"/><path d="m432 160h16v16h-16zm0 0"/></svg>
+                                </div>
+                                <a href="#" class="pressue-text">
+                                    Corporate Washing
+                                </a>
+                                <div class="para text-grey font-500 pressure-para">
+                                    <p>Lorem ipsum dolor sit amet contur adipis cing elit vam us lacinia odio vestibulum</p>
+                                </div>
+                                <a href="#" class="service-button readmore"><span>READ MORE</span></a>
+                                <span class="service-bottom-image">
+                                   <svg height="480pt" viewBox="0 -24 480.00005 480" width="480pt" xmlns="http://www.w3.org/2000/svg"><path d="m192.644531 48.757812 5.105469-11.90625 14.703125 6.308594-5.101563 11.902344zm0 0"/><path d="m173.75 92.84375 13.714844-32 14.707031 6.300781-13.714844 32.003907zm0 0"/><path d="m454.398438 83.199219c-1.507813-2.011719-3.878907-3.199219-6.398438-3.199219h-72c-4.417969 0-8 3.582031-8 8v24h-18.726562l-45.921876-107.152344c-1.261718-2.941406-4.152343-4.847656-7.351562-4.847656h-112c-3.199219 0-6.089844 1.90625-7.351562 4.847656l-45.921876 107.152344h-18.726562v-24c0-4.417969-3.582031-8-8-8h-32c-4.417969 0-8 3.582031-8 8v10.304688l-16.222656-36.496094c-1.148438-12.761719-12.140625-22.359375-24.9375-21.769532-12.800782.585938-22.8671878 11.148438-22.839844 23.960938v144c0 13.253906 10.746094 24 24 24s24-10.746094 24-24v-6.113281l16-32v138.824219c-28.113281 11.324218-44.429688 40.816406-39.082031 70.652343 5.34375 29.832031 30.882812 51.828125 61.179687 52.6875s57.039063-19.648437 64.070313-49.128906l181.601562-36.3125c-11.738281 32.972656 5.195313 69.261719 38.003907 81.449219 32.8125 12.191406 69.328124-4.238282 81.96875-36.875 12.644531-32.640625-3.28125-69.378906-35.742188-82.472656v-20.710938h24c4.417969 0 8-3.582031 8-8v-24h24c4.417969 0 8-3.582031 8-8v-128c0-1.730469-.5625-3.414062-1.601562-4.800781zm-310.398438 76.800781h192v24c-.035156 30.914062-25.085938 55.964844-56 56h-80c-30.914062-.035156-55.964844-25.085938-56-56zm192-16h-192v-16h192zm-136 112h80c39.746094-.046875 71.953125-32.253906 72-72v-24h16v112h-256v-112h16v24c.046875 39.746094 32.253906 71.953125 72 72zm-88 32h256v16h-256zm256-144h-16v-16h16zm-178.726562-128h101.453124l41.144532 96h-183.742188zm-61.273438 112v16h-16v-16zm-80-26.304688 11.6875 26.304688h-11.6875zm-16 106.304688c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8v-144c0-4.417969 3.582031-8 8-8s8 3.582031 8 8zm16-64h11.054688l-11.054688 22.113281zm32-48h16v208.550781c-5.308594-.734375-10.691406-.734375-16 0zm8 320c-26.507812 0-48-21.492188-48-48s21.492188-48 48-48 48 21.492188 48 48c-.027344 26.5-21.5 47.972656-48 48zm63.910156-49.742188c-.472656-17.773437-8.347656-34.539062-21.71875-46.257812h219.617188c-2.867188 2.515625-5.503906 5.277344-7.878906 8.257812zm288.089844 1.742188c0 26.507812-21.492188 48-48 48s-48-21.492188-48-48 21.492188-48 48-48c26.5.027344 47.972656 21.5 48 48zm-48-64c-2.675781.019531-5.347656.203125-8 .550781v-208.550781h16v208.550781c-2.652344-.347656-5.324219-.53125-8-.550781zm40-32h-16v-16h16zm32-32h-48v-144h28l20 26.664062zm0 0"/><path d="m88 344c-13.253906 0-24 10.746094-24 24s10.746094 24 24 24 24-10.746094 24-24-10.746094-24-24-24zm0 32c-4.417969 0-8-3.582031-8-8s3.582031-8 8-8 8 3.582031 8 8-3.582031 8-8 8zm0 0"/><path d="m368 368c0 13.253906 10.746094 24 24 24s24-10.746094 24-24-10.746094-24-24-24-24 10.746094-24 24zm32 0c0 4.417969-3.582031 8-8 8s-8-3.582031-8-8 3.582031-8 8-8 8 3.582031 8 8zm0 0"/><path d="m432 128h16v16h-16zm0 0"/><path d="m432 160h16v16h-16zm0 0"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="services-tab">
+                                <div class="service-tab-image">
+                                    <a href="#">
+                                        <img src="images/service-details-5.jpg">
+                                    </a>
+                                </div>
+                                <div class="service-tab-icon">
+                                    <svg id="Layer_1" height="512" viewBox="0 0 128 128" width="512" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m29.537 84.308v19.5a1.75 1.75 0 0 0 1.75 1.75h34a1.75 1.75 0 0 0 1.75-1.75v-19.5a1.749 1.749 0 0 0 -1.75-1.75h-34a1.749 1.749 0 0 0 -1.75 1.75zm3.5 1.75h30.5v16h-30.5z"/><path d="m36.287 38.417a1.75 1.75 0 0 0 0 3.5h24a1.75 1.75 0 1 0 0-3.5z"/><path d="m36.287 49.75h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m36.287 57.583h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m122.493 24.066a1.753 1.753 0 0 0 -1.617-.194l-8.547 3.26h-3.835c-2.316-5.787-8.213-14.674-22.916-17.471a53.294 53.294 0 0 0 -25.229 1.185v-4.346a1.751 1.751 0 0 0 -1.749-1.75h-20.626a1.751 1.751 0 0 0 -1.75 1.75v15.94h-2.8a13.733 13.733 0 0 0 -13.732 13.051l-2.748 53.633a7.739 7.739 0 0 0 -12.194 6.339v20.037a7.744 7.744 0 0 0 13.188 5.514 7.746 7.746 0 0 0 5.412 2.236h49.87a7.748 7.748 0 0 0 5.414-2.238 7.744 7.744 0 0 0 13.189-5.512v-20.037a7.739 7.739 0 0 0 -12.195-6.338l-2.74-53.635a13.753 13.753 0 0 0 -13.738-13.05h-2.8v-7.889a49.948 49.948 0 0 1 24.573-1.451c12.018 2.287 17.379 9.028 19.748 14.033h-1.019a1.751 1.751 0 0 0 -1.75 1.75v20.117a1.746 1.746 0 0 0 1.5 1.725v54.8a1.745 1.745 0 0 0 -1.5 1.652l-.6 14.247a1.75 1.75 0 0 0 1.748 1.823h10.2a1.75 1.75 0 0 0 1.75-1.82l-.6-14.247a1.745 1.745 0 0 0 -1.5-1.652v-54.8a1.744 1.744 0 0 0 1.5-1.728v-13.347l7.343-1.038a1.75 1.75 0 0 0 1.5-1.733v-7.375a1.751 1.751 0 0 0 -.75-1.441zm-82.769-15.816h17.125v3.855c-5.866 2.445-10.03 6.059-11.926 10.335h-5.2zm-27.224 111.5a4.255 4.255 0 0 1 -4.25-4.25v-20.037a4.25 4.25 0 0 1 8.5 0v20.037a4.255 4.255 0 0 1 -4.25 4.25zm71.573-28.537a4.255 4.255 0 0 1 4.25 4.25v20.037a4.25 4.25 0 0 1 -8.5 0v-20.037a4.255 4.255 0 0 1 4.25-4.25zm-10.681-55.544 3.008 58.781a7.866 7.866 0 0 0 -.074 1.013v20.037a7.727 7.727 0 0 0 .389 2.411 4.249 4.249 0 0 1 -3.492 1.839h-49.873a4.251 4.251 0 0 1 -3.489-1.838 7.733 7.733 0 0 0 .389-2.412v-20.037a7.765 7.765 0 0 0 -.075-1.017l3.012-58.779a10.237 10.237 0 0 1 10.233-9.727h4.53.024 20.626.024 4.526a10.255 10.255 0 0 1 10.242 9.729zm-24.518-13.229a18.571 18.571 0 0 1 7.975-6.505v6.505zm58.026 83.06v-54.75h2.5v54.75zm4-71.371v13.121h-5.5v-16.618h5.5zm-6.021 85.618.45-10.747h5.644l.45 10.747zm14.871-88.385-5.348.756v-2.03l5.348-2.04z"/></svg>
+                                </div>
+                                <a href="#" class="pressue-text">
+                                    Industrial Washing
+                                </a>
+                                <div class="para text-grey font-500 pressure-para">
+                                    <p>Lorem ipsum dolor sit amet contur adipis cing elit vam us lacinia odio vestibulum</p>
+                                </div>
+                                <a href="#" class="service-button readmore"><span>READ MORE</span></a>
+                                <span class="service-bottom-image">
+                                   <svg id="Layer_1" height="512" viewBox="0 0 128 128" width="512" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="m29.537 84.308v19.5a1.75 1.75 0 0 0 1.75 1.75h34a1.75 1.75 0 0 0 1.75-1.75v-19.5a1.749 1.749 0 0 0 -1.75-1.75h-34a1.749 1.749 0 0 0 -1.75 1.75zm3.5 1.75h30.5v16h-30.5z"/><path d="m36.287 38.417a1.75 1.75 0 0 0 0 3.5h24a1.75 1.75 0 1 0 0-3.5z"/><path d="m36.287 49.75h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m36.287 57.583h24a1.75 1.75 0 1 0 0-3.5h-24a1.75 1.75 0 0 0 0 3.5z"/><path d="m122.493 24.066a1.753 1.753 0 0 0 -1.617-.194l-8.547 3.26h-3.835c-2.316-5.787-8.213-14.674-22.916-17.471a53.294 53.294 0 0 0 -25.229 1.185v-4.346a1.751 1.751 0 0 0 -1.749-1.75h-20.626a1.751 1.751 0 0 0 -1.75 1.75v15.94h-2.8a13.733 13.733 0 0 0 -13.732 13.051l-2.748 53.633a7.739 7.739 0 0 0 -12.194 6.339v20.037a7.744 7.744 0 0 0 13.188 5.514 7.746 7.746 0 0 0 5.412 2.236h49.87a7.748 7.748 0 0 0 5.414-2.238 7.744 7.744 0 0 0 13.189-5.512v-20.037a7.739 7.739 0 0 0 -12.195-6.338l-2.74-53.635a13.753 13.753 0 0 0 -13.738-13.05h-2.8v-7.889a49.948 49.948 0 0 1 24.573-1.451c12.018 2.287 17.379 9.028 19.748 14.033h-1.019a1.751 1.751 0 0 0 -1.75 1.75v20.117a1.746 1.746 0 0 0 1.5 1.725v54.8a1.745 1.745 0 0 0 -1.5 1.652l-.6 14.247a1.75 1.75 0 0 0 1.748 1.823h10.2a1.75 1.75 0 0 0 1.75-1.82l-.6-14.247a1.745 1.745 0 0 0 -1.5-1.652v-54.8a1.744 1.744 0 0 0 1.5-1.728v-13.347l7.343-1.038a1.75 1.75 0 0 0 1.5-1.733v-7.375a1.751 1.751 0 0 0 -.75-1.441zm-82.769-15.816h17.125v3.855c-5.866 2.445-10.03 6.059-11.926 10.335h-5.2zm-27.224 111.5a4.255 4.255 0 0 1 -4.25-4.25v-20.037a4.25 4.25 0 0 1 8.5 0v20.037a4.255 4.255 0 0 1 -4.25 4.25zm71.573-28.537a4.255 4.255 0 0 1 4.25 4.25v20.037a4.25 4.25 0 0 1 -8.5 0v-20.037a4.255 4.255 0 0 1 4.25-4.25zm-10.681-55.544 3.008 58.781a7.866 7.866 0 0 0 -.074 1.013v20.037a7.727 7.727 0 0 0 .389 2.411 4.249 4.249 0 0 1 -3.492 1.839h-49.873a4.251 4.251 0 0 1 -3.489-1.838 7.733 7.733 0 0 0 .389-2.412v-20.037a7.765 7.765 0 0 0 -.075-1.017l3.012-58.779a10.237 10.237 0 0 1 10.233-9.727h4.53.024 20.626.024 4.526a10.255 10.255 0 0 1 10.242 9.729zm-24.518-13.229a18.571 18.571 0 0 1 7.975-6.505v6.505zm58.026 83.06v-54.75h2.5v54.75zm4-71.371v13.121h-5.5v-16.618h5.5zm-6.021 85.618.45-10.747h5.644l.45 10.747zm14.871-88.385-5.348.756v-2.03l5.348-2.04z"/></svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!--------------- Ffrequently sec -------------------->
+    <section class="frequently-sec" id="faq">
+        <div class="container-fluid">
+            <div class="row frequently-row">
+                <div class="col-lg-6">
+                    <div class="frequently-colm">
+                        <img src="images/Group 273.png">
+                    </div>
+                </div>
+                <div class="col-lg-6 freq-colm">
+                    <div class="fourth-heading text-green">
+                        <h4>FAQ’S</h4>
+                    </div>
+                    <div class="second-heading text-blue font-800 pt-1">
+                        <h2>Frequently Asked Questions.</h2>
+                    </div>
+                    <div class="freq-collps">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card border-0 freq-card-colm">
+                                <div class="card-header freq-card " id="headingOne" >
+                                    <button type="button" class="btn btn-link text-decoration-none right" id="the-button"  onclick="myFunction()" data-toggle="collapse" data-target="#collapseOne"  aria-expanded="false" >
+                                        <div class="fourth-heading text-blue font-700 " >
+                                            <h4>Where Can I Find Out About Funding?</h4>
+                                        </div>
+                                    </button>									
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body freq-card-body">
+                                        <div class="para font-500 text-grey pl-3">
+                                            <p>Lorem ipsum dolor sit amet consectur adipiscing elit eius mod tempor incididunt labore dolore magna aliquaenim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 freq-card-colm">
+                                <div class="card-header freq-card" id="headingTwo">
+                                    <button type="button" class="btn btn-link collapsed text-decoration-none" data-toggle="collapse" data-target="#collapseTwo">
+                                        <div class="fourth-heading text-blue  font-700">
+                                            <h4>Can I Get a Free Trial Before I Purchase?</h4>
+                                        </div>
+                                    </button>  
+                                </div>
+                                <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body freq-card-body">
+                                        <div class="para font-500 text-grey  pl-3">
+                                            <p>Lorem ipsum dolor sit amet consectur adipiscing elit eius mod tempor incididunt labore dolore magna aliquaenim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 freq-card-colm">
+                                <div class="card-header freq-card" id="headingThree">
+                                    <button type="button" class="btn btn-link collapsed text-decoration-none right" data-toggle="collapse" data-target="#collapseThree">
+                                        <div class="fourth-heading text-blue  font-700">
+                                            <h4>How Can I Make a Change to My Application?</h4>
+                                        </div>
+                                    </button>                     
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body freq-card-body">
+                                        <div class="para font-500 text-grey  pl-3">
+                                            <p>Lorem ipsum dolor sit amet consectur adipiscing elit eius mod tempor incididunt labore dolore magna aliquaenim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------counter sec  ------------------------->
+    <section class="counter-sec">
+        <div class="container-fluid">
+            <ul id="counter">
+                <li> 
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_3" data-name="Layer 3" viewBox="0 0 64 64" width="512" height="512"><path d="M62.707,31.293l-30-30a1,1,0,0,0-1.414,0l-30,30A1,1,0,0,0,2,33H7V57H6a1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H58a1,1,0,0,0,1-1V58a1,1,0,0,0-1-1H57V33h5a1,1,0,0,0,.707-1.707ZM57,61H7V59H57ZM27,57H15V39H27Zm2,0V38a1,1,0,0,0-1-1H14a1,1,0,0,0-1,1V57H9V32.414l23-23,23,23V57ZM56.414,31,32.707,7.293a1,1,0,0,0-1.414,0L7.586,31H4.414L32,3.414,59.586,31Z"/><path d="M39,26a7,7,0,1,0-7,7A7.008,7.008,0,0,0,39,26ZM27,26a5,5,0,1,1,5,5A5.006,5.006,0,0,1,27,26Z"/><path d="M52,37H32a1,1,0,0,0-1,1V52a1,1,0,0,0,1,1H52a1,1,0,0,0,1-1V38A1,1,0,0,0,52,37Zm-1,7H43V39h8ZM41,39v5H33V39Zm-8,7h8v5H33Zm10,5V46h8v5Z"/><rect x="17" y="45" width="2" height="4"/></svg>
+                    <h1 class="count" data-count="1924" >1500</h1>
+                    <p>Project Completed</p>
+                </li>
+                <li>
+                   <svg id="Capa_1" enable-background="new 0 0 510.896 510.896" height="512" viewBox="0 0 510.896 510.896" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m7.5 318.938h25.756c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-25.756c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5z"/><path d="m503.396 162.69c-4.143 0-7.5 3.357-7.5 7.5v29.721c0 23.454-19.081 42.535-42.535 42.535h-244.169v-6.014c0-16.376-13.323-29.699-29.699-29.699s-29.699 13.323-29.699 29.699v6.014h-38.977c-2.41 0-4.672 1.157-6.082 3.111l-13.468 18.667-13.468-18.667c-1.41-1.954-3.672-3.111-6.082-3.111h-14.181c-23.454 0-42.536-19.081-42.536-42.536v-123.775c0-23.454 19.082-42.535 42.536-42.535h322.307c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-322.307c-31.725 0-57.536 25.81-57.536 57.535v123.775c0 31.725 25.811 57.535 57.536 57.535h10.344l11.656 16.155c2.711 3.758 7.097 6.001 11.731 6.001 4.635 0 9.02-2.243 11.731-6.001l11.656-16.155h35.14v21.196c0 4.681-2.068 9.076-5.675 12.06l-33.091 27.374c-5.914-8.534-15.771-14.138-26.917-14.138h-18.893c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h18.894c9.778 0 17.733 7.955 17.733 17.733v122.892c0 9.778-7.955 17.733-17.733 17.733h-76.612c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h76.612c13.309 0 24.78-7.988 29.891-19.418 11.609 8.773 25.896 13.594 40.47 13.594h119.978c15.166 0 27.505-12.338 27.505-27.504 0-5.994-1.933-11.542-5.201-16.066 8.346-4.728 13.994-13.686 13.994-23.943 0-6.26-2.106-12.036-5.642-16.664 7.79-4.862 12.987-13.506 12.987-23.345 0-6.213-2.073-11.95-5.561-16.561 7.88-4.842 13.146-13.541 13.146-23.448 0-15.166-12.338-27.505-27.504-27.505h-68.21c-3.131 0-6.074-1.219-8.287-3.432l-11.172-11.174c-.846-.846-1.312-1.972-1.312-3.169v-36.217h244.168c31.725 0 57.535-25.811 57.535-57.535v-29.718c-.001-4.143-3.358-7.5-7.501-7.5zm-292.325 155.922c5.046 5.046 11.756 7.825 18.894 7.825h68.21c6.895 0 12.504 5.609 12.504 12.505 0 6.895-5.609 12.504-12.504 12.504h-22.082c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h14.496c6.896 0 12.505 5.609 12.505 12.505 0 6.895-5.609 12.504-12.505 12.504h-14.496c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h7.152c6.895 0 12.504 5.609 12.504 12.505 0 6.895-5.609 12.504-12.504 12.504h-11.213c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h2.419c6.896 0 12.505 5.609 12.505 12.505 0 6.895-5.609 12.504-12.505 12.504h-119.978c-11.836 0-23.435-4.086-32.658-11.504l-4.97-3.998v-119.3c0-1.271-.08-2.522-.222-3.755l37.058-30.657c7.062-5.843 11.113-14.451 11.113-23.617v-42.21c0-8.105 6.594-14.699 14.699-14.699s14.699 6.594 14.699 14.699v57.23c0 5.204 2.026 10.097 5.706 13.775z"/><path d="m453.361 18.6h-41.557c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h41.557c23.454 0 42.535 19.081 42.535 42.535v62.093c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-62.093c0-31.725-25.811-57.535-57.535-57.535z"/><path d="m290.738 115.328c-1.578-4.856-5.697-8.329-10.751-9.063l-8.464-1.229-3.785-7.669c-2.26-4.58-6.835-7.425-11.942-7.425-5.106 0-9.683 2.845-11.943 7.424l-3.785 7.67-8.464 1.229c-5.053.734-9.173 4.207-10.751 9.063s-.287 10.088 3.37 13.653l6.125 5.97-1.446 8.429c-.863 5.033 1.167 10.024 5.298 13.026 2.334 1.695 5.065 2.558 7.815 2.558 2.117 0 4.245-.511 6.21-1.544l7.57-3.98 7.569 3.979c4.521 2.378 9.894 1.989 14.024-1.012 4.132-3.002 6.163-7.992 5.3-13.027l-1.445-8.429 6.124-5.971c3.657-3.564 4.949-8.795 3.371-13.652zm-20.597 9.497c-3.14 3.06-4.572 7.467-3.831 11.79l1.019 5.941-5.337-2.806c-1.939-1.02-4.067-1.529-6.195-1.529s-4.257.51-6.199 1.529l-5.335 2.806 1.019-5.941c.741-4.32-.69-8.727-3.831-11.789l-4.317-4.207 5.966-.867c4.337-.63 8.086-3.354 10.027-7.285l2.668-5.406 2.669 5.407c1.94 3.931 5.689 6.654 10.027 7.284l5.965.866z"/><path d="m207.173 115.328c-1.578-4.856-5.697-8.329-10.751-9.063l-8.463-1.229-3.785-7.669c-2.259-4.58-6.835-7.425-11.942-7.425-5.106 0-9.683 2.845-11.943 7.424l-3.785 7.67-8.464 1.229c-5.053.734-9.172 4.207-10.75 9.063s-.287 10.088 3.37 13.652l6.125 5.971-1.446 8.43c-.863 5.033 1.167 10.024 5.299 13.025 2.334 1.696 5.065 2.558 7.815 2.558 2.117 0 4.244-.511 6.21-1.544l7.57-3.98 7.57 3.98c4.52 2.375 9.895 1.988 14.025-1.014 4.131-3.001 6.162-7.992 5.299-13.025l-1.446-8.43 6.125-5.971c3.654-3.564 4.945-8.795 3.367-13.652zm-20.597 9.498c-3.14 3.061-4.572 7.468-3.831 11.788l1.019 5.942-5.337-2.806c-1.94-1.02-4.067-1.529-6.196-1.529-2.128 0-4.257.51-6.198 1.529l-5.336 2.806 1.019-5.941c.741-4.321-.69-8.729-3.83-11.788l-4.317-4.208 5.966-.867c4.338-.63 8.086-3.354 10.028-7.285l2.668-5.406 2.668 5.405c1.94 3.932 5.688 6.656 10.028 7.286l5.965.867z"/><path d="m123.609 115.328c-1.578-4.856-5.697-8.329-10.751-9.063l-8.464-1.229-3.785-7.67c-2.26-4.579-6.837-7.424-11.943-7.424s-9.683 2.845-11.942 7.424l-3.785 7.67-8.464 1.229c-5.053.734-9.172 4.207-10.75 9.063-1.579 4.856-.288 10.088 3.37 13.653l6.125 5.97-1.446 8.429c-.863 5.033 1.167 10.024 5.298 13.026 2.334 1.696 5.066 2.558 7.816 2.558 2.117 0 4.244-.511 6.21-1.544l7.57-3.98 7.57 3.98c4.52 2.375 9.894 1.988 14.025-1.014 4.131-3.001 6.162-7.992 5.299-13.026l-1.446-8.429 6.125-5.971c3.655-3.564 4.947-8.795 3.368-13.652zm-20.598 9.499c-3.138 3.061-4.57 7.466-3.83 11.788l1.02 5.941-5.337-2.806c-3.879-2.038-8.512-2.039-12.394 0l-5.336 2.806 1.019-5.941c.741-4.32-.69-8.727-3.831-11.789l-4.317-4.207 5.966-.867c4.339-.63 8.087-3.354 10.027-7.285l2.668-5.406 2.668 5.407c1.941 3.931 5.689 6.653 10.027 7.284l5.966.867z"/><path d="m375.302 115.328c-1.578-4.856-5.698-8.329-10.752-9.063l-8.463-1.229-3.785-7.669c-2.26-4.579-6.835-7.425-11.941-7.425-.001 0-.001 0-.001 0-5.106 0-9.683 2.845-11.943 7.423v.002l-3.784 7.669-8.464 1.229c-5.054.734-9.173 4.207-10.751 9.064-1.578 4.856-.287 10.087 3.369 13.652l6.125 5.97-1.445 8.429c-.864 5.033 1.166 10.024 5.297 13.026 4.132 3 9.506 3.39 14.026 1.014l7.569-3.98 7.57 3.98c1.966 1.033 4.094 1.544 6.21 1.544 2.75 0 5.481-.862 7.816-2.558 4.131-3.002 6.161-7.993 5.298-13.025l-1.446-8.431 6.125-5.97c3.656-3.564 4.948-8.795 3.37-13.652zm-20.599 9.499c-3.14 3.062-4.57 7.469-3.829 11.787l1.02 5.942-5.338-2.807c-1.939-1.019-4.067-1.528-6.195-1.528s-4.257.51-6.198 1.529l-5.335 2.806 1.02-5.943c.74-4.319-.692-8.726-3.831-11.787l-4.317-4.207 5.967-.867c4.338-.631 8.086-3.354 10.027-7.286l2.668-5.405 2.669 5.407c1.94 3.931 5.688 6.654 10.026 7.284l5.966.867z"/><path d="m398.476 134.95-1.445 8.43c-.864 5.033 1.166 10.024 5.297 13.026 4.132 3 9.506 3.39 14.026 1.014l7.569-3.98 7.57 3.98c1.966 1.033 4.094 1.544 6.21 1.544 2.75 0 5.481-.862 7.816-2.558 4.131-3.002 6.161-7.993 5.298-13.025l-1.446-8.431 6.125-5.97c3.656-3.564 4.948-8.796 3.37-13.652s-5.698-8.329-10.752-9.063l-8.464-1.229-3.784-7.671c-2.261-4.579-6.838-7.423-11.944-7.423s-9.682 2.846-11.941 7.425l-3.785 7.669-8.463 1.229c-5.054.734-9.174 4.207-10.752 9.063s-.286 10.088 3.37 13.653zm12.753-15.198c4.34-.631 8.088-3.354 10.026-7.285l2.668-5.406 2.669 5.407c1.94 3.931 5.688 6.653 10.027 7.284l5.966.867-4.318 4.208c-3.14 3.062-4.57 7.469-3.829 11.787l1.02 5.942-5.338-2.807c-3.879-2.037-8.511-2.038-12.394.001l-5.336 2.806 1.019-5.939c.742-4.321-.688-8.729-3.829-11.791l-4.317-4.207z"/></g></svg>
+                    <h1 class="count" data-count="9025" >1500</h1>
+                    <p>Satisfied Clients</p>
+                </li>
+                <li> 
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 512 512" width="512" height="512"><path d="M24,480H184a8,8,0,0,0,8-8V440a8,8,0,0,0-8-8V240a8,8,0,0,0,8-8V200a8,8,0,0,0-8-8h-.951c-3.268-17.04-14.23-32.748-31.049-44.323V136a24.039,24.039,0,0,0-16-22.624V72a8,8,0,0,0-10.53-7.589l-48,16A8,8,0,0,0,72,88v25.376A24.039,24.039,0,0,0,56,136v11.677C39.181,159.252,28.219,174.96,24.951,192H24a8,8,0,0,0-8,8v32a8,8,0,0,0,8,8V432a8,8,0,0,0-8,8v32A8,8,0,0,0,24,480Zm152-16H32V448H176Zm-8-80H96a8.009,8.009,0,0,1-8-8V280a8.009,8.009,0,0,1,8-8h72ZM32,224V208H176v16ZM120,83.1V112H88V93.766ZM80,128h48a8.009,8.009,0,0,1,8,8v8H72v-8A8.009,8.009,0,0,1,80,128ZM66.339,160h75.322c12.96,8.55,21.708,19.841,24.98,32H41.359C44.631,179.841,53.379,168.55,66.339,160ZM40,240H168v16H96a24.027,24.027,0,0,0-24,24v96a24.027,24.027,0,0,0,24,24h72v32H40Z"/><path d="M176,96a8,8,0,0,0,8,8h16a8,8,0,0,0,0-16H184A8,8,0,0,0,176,96Z"/><path d="M224,96a8,8,0,0,0,8,8h16a8,8,0,0,0,0-16H232A8,8,0,0,0,224,96Z"/><path d="M187.721,50.486l-14.783,6.123a8,8,0,1,0,6.124,14.782l14.782-6.123a8,8,0,0,0-6.123-14.782Z"/><path d="M232.066,32.117,217.285,38.24a8,8,0,1,0,6.123,14.782L238.189,46.9a8,8,0,1,0-6.123-14.782Z"/><path d="M172.938,135.391l14.783,6.123a8,8,0,0,0,6.123-14.782l-14.782-6.123a8,8,0,1,0-6.124,14.782Z"/><path d="M217.285,153.76l14.781,6.123a8,8,0,1,0,6.123-14.782l-14.781-6.123a8,8,0,0,0-6.123,14.782Z"/><path d="M488,32H296a8,8,0,0,0-8,8V472a8,8,0,0,0,8,8H488a8,8,0,0,0,8-8V40A8,8,0,0,0,488,32Zm-8,48H400V48h80ZM352,416V384h80v32ZM432,96v32H352V96Zm-96,32H304V96h32Zm48,16v32H304V144Zm-32,80V192h80v32Zm-16-32v32H304V192Zm48,48v32H304V240Zm-32,80V288h80v32Zm-16-32v32H304V288Zm48,48v32H304V336Zm-48,48v32H304V384Zm112,0h32v32H448Zm-48-16V336h80v32Zm48-48V288h32v32Zm-48-48V240h80v32Zm48-48V192h32v32Zm-48-48V144h80v32Zm48-48V96h32v32ZM384,48V80H304V48ZM304,432h80v32H304Zm96,32V432h80v32Z"/></svg>
+                    <h1 class="count" data-count="3087" >1500</h1>
+                    <p>Expert Members</p>
+                </li>
+                <li>
+                    <svg id="Capa_1" enable-background="new 0 0 511.038 511.038" height="512" viewBox="0 0 511.038 511.038" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m477.867 16.391h-32.794c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h32.794c1.91 0 3.465 1.554 3.465 3.464v201.36c0 1.91-1.555 3.464-3.465 3.464h-306.879v-14.999h202.549c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-202.549v-31.815c0-20.107-16.359-36.467-36.468-36.467-20.107 0-36.467 16.359-36.467 36.467v31.815h-17.351c-2.695-10.229-10.767-18.301-20.996-20.996v-53.289c0-4.143-3.357-7.5-7.5-7.5s-7.5 3.357-7.5 7.5v59.822c0 4.143 3.357 7.5 7.5 7.5 7.975 0 14.463 6.488 14.463 14.463 0 4.143 3.357 7.5 7.5 7.5h23.885v14.999h-64.884c-1.91 0-3.464-1.554-3.464-3.464v-201.361c0-1.91 1.554-3.464 3.464-3.464h103.617v15h-62.618c-4.143 0-7.5 3.357-7.5 7.5 0 7.975-6.488 14.463-14.463 14.463-4.143 0-7.5 3.357-7.5 7.5v27.578c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-21.044c10.229-2.695 18.301-10.767 20.996-20.996h56.085v2.891c0 17.993 14.639 32.632 32.633 32.632 8.347 0 15.968-3.153 21.745-8.327 5.58 10.01 16.27 16.799 28.521 16.799 12.25 0 22.941-6.789 28.52-16.799 5.777 5.173 13.398 8.327 21.745 8.327 12.782 0 23.865-7.391 29.217-18.12 5.687 4.813 13.032 7.724 21.048 7.724 15.41 0 28.351-10.74 31.751-25.126h78.37c2.695 10.229 10.767 18.301 20.996 20.996v106.297c-10.229 2.695-18.301 10.767-20.996 20.996h-24.837c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h31.37c4.143 0 7.5-3.357 7.5-7.5 0-7.975 6.488-14.463 14.463-14.463 4.143 0 7.5-3.357 7.5-7.5v-119.364c0-4.143-3.357-7.5-7.5-7.5-7.975 0-14.463-6.488-14.463-14.463 0-4.143-3.357-7.5-7.5-7.5h-84.021v-15h60.263c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-61.658c-3.368-9.537-12.466-16.391-23.141-16.391h-16.197c-6.612 0-12.617 2.634-17.033 6.902-4.416-4.268-10.422-6.902-17.034-6.902h-16.197c-6.612 0-12.618 2.634-17.034 6.902-4.417-4.268-10.422-6.902-17.035-6.902h-16.196c-6.612 0-12.618 2.634-17.034 6.902-4.417-4.268-10.422-6.902-17.034-6.902h-16.197c-10.674 0-19.773 6.854-23.139 16.391h-105.013c-10.181 0-18.464 8.283-18.464 18.464v201.36c0 10.181 8.283 18.464 18.464 18.464h64.884v55.629c0 16 6.23 31.042 17.543 42.355l32.115 32.114v118.761c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-121.867c0-1.989-.79-3.896-2.196-5.304l-34.312-34.312c-8.48-8.479-13.15-19.755-13.15-31.748v-132.443c0-11.837 9.63-21.467 21.467-21.467s21.468 9.63 21.468 21.467v69.315c0 4.143 3.357 7.5 7.5 7.5 33.717 0 61.147 27.431 61.147 61.147v4.805c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-4.805c0-25.027-12.145-47.26-30.841-61.148h157.242v3.875c0 13.316-4.101 26.077-11.858 36.9l-21.588 30.12c-.913 1.273-1.404 2.802-1.404 4.369v173.595c0 4.143 3.357 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-171.183l20.184-28.161c9.596-13.387 14.667-29.168 14.667-45.639v-3.875h96.83c10.182 0 18.465-8.283 18.465-18.464v-201.361c-.001-10.18-8.284-18.463-18.466-18.463zm-165.751-1.391h16.197c5.257 0 9.534 4.277 9.534 9.534v29.35c0 9.723-7.91 17.633-17.633 17.633s-17.632-7.91-17.632-17.633v-29.35c.001-5.257 4.277-9.534 9.534-9.534zm-50.264 0h16.197c5.257 0 9.534 4.277 9.534 9.534v39.747c0 9.723-7.91 17.632-17.633 17.632s-17.633-7.909-17.633-17.632v-39.747c0-5.257 4.278-9.534 9.535-9.534zm-50.265 0h16.196c5.257 0 9.534 4.277 9.534 9.534v48.22c0 9.723-7.909 17.632-17.632 17.632h-.001c-9.723 0-17.632-7.909-17.632-17.632v-48.22c.001-5.257 4.278-9.534 9.535-9.534zm-59.8 9.534c0-5.257 4.277-9.534 9.534-9.534h16.197c5.257 0 9.534 4.277 9.534 9.534v39.747c0 9.723-7.91 17.632-17.633 17.632s-17.633-7.909-17.633-17.632v-39.747z"/><path d="m198.939 114.432c-4.084-.63-7.923 2.179-8.553 6.273-.511 3.325-.771 6.724-.771 10.101 0 36.373 29.592 65.965 65.965 65.965s65.965-29.592 65.965-65.965c0-6.168-.869-12.313-2.583-18.268-1.146-3.982-5.311-6.283-9.281-5.133-3.98 1.146-6.279 5.301-5.133 9.281 1.325 4.605 1.997 9.355 1.997 14.119 0 28.103-22.862 50.965-50.965 50.965s-50.965-22.862-50.965-50.965c0-2.616.2-5.247.597-7.821.631-4.093-2.178-7.922-6.273-8.552z"/></g></svg>
+                    <h1 class="count" data-count="260" >0</h1>
+                    <p>Winning Awards</p>
+                </li>
+            </ul>
+            </div>
+    </section>
+    <!-------------------- TESTIMONIAL SEC  ------------------------>
+    <section class="testimonial-sec" id="testimonials">
+        <div class="container">
+            <div class="text-center testimonial-heading">
+                <div class="fourth-heading font-500 text-green">
+                    <h4>Testimonials</h4>
+                </div>
+                <div class="second-heading font-800 text-blue pt-2">
+                    <h2>We are Very Glad to Get
+                        Client Review.
+                    </h2>
+                </div>
+            </div>
+            <div class=" owl-carousel owl-theme hatch-testimonial">
+                <div class="item text-center">
+                    <div class="testimonial-image">
+                        <img src="images/testimonial-1.png">
+                        <span><i class="fas fa-quote-right"></i></span>
+                    </div>
+                    <div class="fourth-heading text-blue font-600 testimonial-para">
+                        <h4>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent 
+                            ore veritatis et quasi archite to beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
+                            quia voluptas sit aspernatur odit aut fugit.
+                        </h4>
+                    </div>
+                    <div class="star-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="third-heading text-blue font-700">
+                        <h3>Amber Heard</h3>
+                    </div>
+                    <div class="six-heading text-grey pt-2">
+                        <h6>Amber Heard</h6>
+                    </div>
+
+                </div>
+                <div class="item text-center">
+                    <div class="testimonial-image">
+                        <img src="images/testimonial-1.png">
+                        <span><i class="fas fa-quote-right"></i></span>
+                    </div>
+                    <div class="fourth-heading text-blue font-600 testimonial-para">
+                        <h4>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent 
+                            ore veritatis et quasi archite to beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
+                            quia voluptas sit aspernatur odit aut fugit.
+                        </h4>
+                    </div>
+                    <div class="star-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="third-heading text-blue font-700">
+                        <h3>Amber Heard</h3>
+                    </div>
+                    <div class="six-heading text-grey pt-2">
+                        <h6>Amber Heard</h6>
+                    </div>
+
+                </div>
+                <div class="item text-center">
+                    <div class="testimonial-image">
+                        <img src="images/testimonial-1.png">
+                        <span><i class="fas fa-quote-right"></i></span>
+                    </div>
+                    <div class="fourth-heading text-blue font-600 testimonial-para">
+                        <h4>Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invent 
+                            ore veritatis et quasi archite to beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
+                            quia voluptas sit aspernatur odit aut fugit.
+                        </h4>
+                    </div>
+                    <div class="star-icon">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                    </div>
+                    <div class="third-heading text-blue font-700">
+                        <h3>Amber Heard</h3>
+                    </div>
+                    <div class="six-heading text-grey pt-2">
+                        <h6>Amber Heard</h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------- team member section ----------------->
+    <section class="team-member-section" id="our-team">
+        <div class="team-member">
+            <div class="team-member-row">
+                <div class="team-member-colm">
+                    <div class="fourth-heading text-green font-500">
+                        <h4>Team Member</h4>
+                    </div>
+                    <div class="second-heading text-white font-800 pt-2">
+                        <h2>Focusing Your Mind, with The Best Expert.</h2>
+                    </div>
+                    <div class="six-heading text-grey font-500 team-member-para">
+                        <h6>Excepteur sint ocecat pro sunt in culpa. qui officia deserunt mollit anim id est. perspiciatis unde.</h6>
+                    </div>
+
+                </div>
+                <div class="team-member-slider">
+                    <div class=" owl-carousel owl-theme team-testimonial">
+                        <div class="item">
+                            <div class="member">
+                                <a href="#">
+                                    <img src="images/team-1.jpg">
+                                </a>
+                                <div class="member-carousal-info">
+                                    <div class="third-heading text-blue font-700">
+                                        <h3>Thomas Olsen</h3>
+                                    </div>
+                                    <div class="six-heading text-grey">
+                                        <h6>Technician</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member">
+                                <img src="images/team-1.jpg">
+                                <div class="member-carousal-info">
+                                    <div class="third-heading text-blue font-700">
+                                        <h3>Thomas Olsen</h3>
+                                    </div>
+                                    <div class="six-heading text-grey">
+                                        <h6>Technician</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member">
+                                <img src="images/team-1.jpg">
+                                <div class="member-carousal-info">
+                                    <div class="third-heading text-blue font-700">
+                                        <h3>Thomas Olsen</h3>
+                                    </div>
+                                    <div class="six-heading text-grey">
+                                        <h6>Technician</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="member">
+                                <img src="images/team-1.jpg">
+                                <div class="member-carousal-info">
+                                    <div class="third-heading text-blue font-700">
+                                        <h3>Thomas Olsen</h3>
+                                    </div>
+                                    <div class="six-heading text-grey">
+                                        <h6>Technician</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!------------------- blogs sec ----------------------->
+    <section class="blog-sec" id="blog">
+        <div class="container-fluid">
+            <div class="text-center">
+                <div class="fourth-heading font-500 text-green">
+                    <h4>From the Blog</h4>
+                </div>
+                <div class="second-heading font-800 text-blue pt-2">
+                    <h2>Latest News & Articles</h2>
+                </div>
+            </div>
+            <div class="row blog-row"
+                     data-aos="fade-up" 
+                     data-aos-duration="1000"
+                     data-aos-once="true"
+                     >
+                <div class="col-lg-6">
+                    <div class="first-blog">
+                       
+                            <img src="images/IMG_8861.png">
+                            <div class="blog-inner-text">
+                                <div class="blog-inner-comments">
+                                    <div class="blog-inner-eve">
+                                        <span><i class="far fa-user pr-1"></i></span>
+                                        <a href="#" class="blog-inner-eve"> Christine Eve</a>
+                                    </div>
+                                    <div class="blog-inner-eve">
+                                        <span><i class="far fa-comment pr-1"></i></span>
+                                        <a href="#" class="blog-inner-eve"> Comments</a>
+                                    </div>
+                                </div>
+                                <div class="washing">
+                                    <a href="#">
+                                        What we’re going to wash today
+                                    </a>
+                                </div>
+                               
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="article-row">
+                        <div class="article-1">
+                            <div class="article-image">
+                                <a href="#">
+                                    <img src="images/news-3.jpg">
+                                    <div class="blog-date-sec">
+                                        <p>October 27,2020</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article-paragraph">
+                                <a href="#" class="article-text">We achieve the highest level of customer service</a>
+                                <div class="para text-grey font-500 artticle-para">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered ...</p>
+                                </div>
+                            </div>
+                            <div class="comments-row">
+                                <div class="user">
+                                    <span><i class="far fa-user"></i></span>
+                                    <a href="#"> CHRISTINE EVE</a>
+                                </div>
+                                <div class="user">
+                                    <span><i class="far fa-comment"></i></span>
+                                    <a href="#">2 COMMENTS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-1">
+                            <div class="article-image">
+                                <a href="#">
+                                    <img src="images/news-2.jpg">
+                                    <div class="blog-date-sec">
+                                        <p>October 27,2020</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="article-paragraph">
+                                <a href="#" class="article-text">Pressure washing, but what really matters</a>
+                                <div class="para text-grey font-500 artticle-para">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered ...</p>
+                                </div>
+                            </div>
+                            <div class="comments-row">
+                                <div class="user">
+                                    <span><i class="far fa-user"></i></span>
+                                    <a href="#"> CHRISTINE EVE</a>
+                                </div>
+                                <div class="user">
+                                    <span><i class="far fa-comment"></i></span>
+                                    <a href="#">2 COMMENTS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact_us" id="contact">
+        <div class="text-center">
+            <div class="fourth-heading font-500 text-green">
+                <h4>Contact Us</h4>
+            </div>
+            <div class="second-heading font-800 text-blue pt-2">
+                <h2>GET A FREE ESTIMATE</h2>
+            </div>
+        </div>
+        <div class="washing-form washing-home-form">
+            <form action="" method="">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Property type">
+                <input type="text" placeholder="Phone No">
+                <input type="text" placeholder="Address">
+                <textarea placeholder="Message" rows="4"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+     </section>
+    <!-------- FOOTER ----------> 
+    <footer>
+        <!-- Start Nav -->
+        <section class="foter-nav font-barlow">
+           
+            <div class="foter-menu">
+                <!-- Brand -->
+                <a class="foter-menu-logo" href="#">
+                    <img src="images/Background (2).png">
+                </a>
+        
+              
+        
+                <!-- Navbar links -->
+                <div class="foter-nav-list">
+                    <ul class="foter-menu-nav-list ml-auto">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <p>Email Address</p>
+                            <a href="mailto:needhelp@example.com">needhelp@example.com</a>
+                            
+                        </li>
+                        <li >
+                            <i class="fas fa-phone-alt"></i>
+                            <p>Phone Line</p>
+                            <a href="tel:92.666.888.0000">92 666 888 0000</a>
+                            
+                        </li>
+                        <li >
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Visit Us</p>
+                            <a href="#">80 Broklyn Golden Street USA</a>
+                          
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+        </section>
+        <!-- ENd Nav -->
+        <!------------ FOOter sec------------------>
+        <div class="footer-bg">
+            <div class="container">
+                <div class="row footer-row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-menu">
+                            <h3>About</h3>
+                            <p>There are many variations of passages of lorem ipsum available, but the majority suffered.</p>
+                            <form>
+                                <input type="text" placeholder="Your email address">
+                                <button type="submit"><i class="far fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 foter-colm-2">
+                        <div class="footer-menu">
+                            <h3>Links</h3>
+                            <a href="#"><span><i class="fas fa-angle-right"></i></span>About</a>
+                            <a href="#"> <span><i class="fas fa-angle-right"></i></span>Our Service</a>
+                            <a href="#"><span><i class="fas fa-angle-right"></i></span>Team Members</a>
+                            <a href="#"><span><i class="fas fa-angle-right"></i></span>Our Gallery</a>
+                            <a href="#"><span><i class="fas fa-angle-right"></i></span>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 foter-colm-2">
+                        <div class="footer-menu">
+                            <h3>Services</h3>
+                            <a href="#"> <span><i class="fas fa-angle-right"></i></span>Pressure Washing</a>
+                            <a href="#"> <span><i class="fas fa-angle-right"></i></span>House Washing</a>
+                            <a href="#"> <span><i class="fas fa-angle-right"></i></span>Wood Restoration</a>
+                            <a href="#"><span><i class="fas fa-angle-right"></i></span>Paver Sealing</a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 foter-colm-4">
+                        <div class="footer-menu">
+                            <h3>News</h3>
+                        </div>
+                        <div class="news-colm">
+                            <div class="news-image">
+                                <a href="#">
+                                    <img src="images/IMG-20201212-WA0003.png">
+                                </a>
+                            </div>
+                            <div class="news-text">
+                                <p>June 16, 2020</p>
+                                <h6>We wash all types of windows</h6>
+                            </div>
+                        </div>
+                        <div class="news-colm">
+                            <div class="news-image">
+                                <a href="#">
+                                    <img src="images/1as.png">
+                                </a>
+                            </div>
+                            <div class="news-text">
+                                <p>June 16, 2020</p>
+                                <h6>Power wash offers many services</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="powrd-by">
+            <p>© Copyright 2021 by jonathan</p>
+        </div>
+
+    </footer>
+    <a class="to-top" href="#home" data-aos="fade-down" >
+		<i class="fas fa-arrow-up"></i>
+	</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- bootsrap cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- owl carousal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- js file -->
+    <script src="min.js"></script>
+</body>
+</html>
